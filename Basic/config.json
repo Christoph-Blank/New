@@ -93,7 +93,7 @@
 								"maximumConcurrentRequests": 3
 							}
 						}
-					},
+					}
         }
       },
       "legend": {

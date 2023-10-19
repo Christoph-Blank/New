@@ -57,43 +57,36 @@
             "name": "Auswahl speichern"
           },
           "routing": {
-						"name": "translate#common:menu.tools.routing",
-						"renderToWindow": false,
-						"active": false,
-						"geosearch": {
-							"minChars": 3,
-							"limit": 10,
-							"type": "NOMINATIM",
-							"serviceId": "10"
-						},
-						"geosearchReverse": {
-							"type": "NOMINATIM",
-							"serviceId": "11"
-						},
-						"directionsSettings": {
-							"type": "ORS",
-							"serviceId": "bkg_ors",
-							"speedProfile": "FOOT",
-							"preference": "RECOMMENDED",
-							"batchProcessing": {
-							"enabled": false,
-							"active": false,
-							"limit": 1000,
-							"maximumConcurrentRequests": 3
-							}
-						},
-						"isochronesSettings": {
-							"type": "ORS",
-							"serviceId": "bkg_ors",
-							"speedProfile": "FOOT",
-							"batchProcessing": {
-								"enabled": false,
-								"active": false,
-								"limit": 1000,
-								"maximumConcurrentRequests": 3
-							}
-						}
-					}
+            "renderToWindow": false,
+            "icon": "bi-signpost-2",
+            "active": false,
+            "geosearch": {
+              "type": "BKG",
+              "serviceId": "5"
+            },
+            "geosearchReverse": {
+              "type": "BKG",
+              "serviceId": "5"
+            },
+            "directionsSettings": {
+              "type": "ORS",
+              "serviceId": "bkg_ors",
+              "speedProfile": "CAR",
+              "batchProcessing": {
+                "enabled": false,
+                "active": false
+              }
+            },
+            "isochronesSettings": {
+              "type": "ORS",
+              "serviceId": "bkg_ors",
+              "speedProfile": "CAR",
+              "batchProcessing": {
+                "enabled": false,
+                "active": false
+              }
+            }
+          
         }
       },
       "legend": {

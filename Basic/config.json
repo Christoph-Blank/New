@@ -98,13 +98,13 @@
             "includeSystemInfo": true,
             "from": [
               {
-                "email": "blank@amt-biesenthal-barnim.de",
+                "email": "lgvgeoportal-hilfe@gv.hamburg.de",
                 "name": "LGVGeoportalHilfe"
               }
             ],
             "to": [
               {
-                "email": "blank@amt-biesenthal-barnim.de",
+                "email": "lgvgeoportal-hilfe@gv.hamburg.de",
                 "name": "LGVGeoportalHilfe"
               }
             ]

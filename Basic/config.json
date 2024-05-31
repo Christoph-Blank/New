@@ -10,13 +10,13 @@
       "mapView": {
         "backgroundImage": "./resources/img/backgroundCanvas.jpeg",
         "startCenter": [
-          1089437.73, 
+          789437.73, 
           5821509.84
         ],
         "extent": [
-          1084000.0, 
+          784000.0, 
           5817000.0, 
-          1094000.0, 
+          794000.0, 
           5826000.0
         ],
         "startZoomLevel": 1

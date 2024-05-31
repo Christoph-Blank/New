@@ -317,7 +317,7 @@
         "name": "Digitale farbige Orthophotos 2004 (DOP25RGB)",
         "name_lang": "Digitale farbige Orthophotos 2004 (DOP25RGB)(Digitale farbige Orthophotos 2004 (DOP25RGB))",
         "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
-        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/luftbild2004",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/luftbild2004?REQUEST=GetCapabilities&SERVICE=wms",
         "typ": "WMS",
         "layers": "0",
         "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/luftbild2004?layerID=0",

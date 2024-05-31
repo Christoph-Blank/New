@@ -33,6 +33,10 @@
       ]
     },
     "tree": {
+      "showFolderPath":{ 
+        "active": true
+      },   
+        
       "addLayerButton": {
         "active": false,
         "searchBar": {

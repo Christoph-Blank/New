@@ -1,1290 +1,1039 @@
-[
-  {
-    "id": "lgvline",
-    "name": "de.hh.up:deetest linie",
-    "url": "https://qs-geodienste.hamburg.de/HH_WFS_deetest",
-    "typ": "WFS",
-    "featureType": "deetest_linie",
-    "featurePrefix": "de.hh.up",
-    "outputFormat" : "image/png",
-    "version": "1.1.0",
-    "featureNS": "https://registry.gdi-de.org/id/de.hh.up",
-    "gfiAttributes": "showAll",
-    "gfiTheme": "default",
-    "layerAttribution":"nicht vorhanden",
-	"legendURL":"",
-	"hitTolerance":"",
-	"datasets":[],
-	"urlIsVisible":true
-  },
-  {
-    "id": "lgvpolygon",
-    "name": "de.hh.up:deetest polygon",
-    "url": "https://qs-geodienste.hamburg.de/HH_WFS_deetest",
-    "typ": "WFS",
-    "featureType": "deetest_polygon",
-    "featurePrefix": "de.hh.up",
-    "outputFormat": "image/png",
-    "version": "1.1.0",
-    "featureNS": "https://registry.gdi-de.org/id/de.hh.up",
-    "gfiAttributes": "showAll",
-    "gfiTheme": "default",
-    "layerAttribution":"nicht vorhanden",
-	"legendURL":"",
-	"hitTolerance":"",
-	"datasets":[],
-	"urlIsVisible":true
-  },
-  {
-    "id": "lgvpoint",
-    "name": "de.hh.up:deetest punkte",
-    "url": "https://qs-geodienste.hamburg.de/HH_WFS_deetest",
-    "typ": "WFS",
-    "featureType": "deetest_punkte",
-    "featurePrefix": "de.hh.up",
-    "outputFormat": "image/png",
-    "version": "1.1.0",
-    "featureNS": "https://registry.gdi-de.org/id/de.hh.up",
-    "gfiAttributes": "showAll",
-    "gfiTheme": "default",
-    "layerAttribution":"nicht vorhanden",
-	"legendURL":"",
-	"hitTolerance":"",
-	"datasets":[],
-	"urlIsVisible":true
-  },
-  {
-    "id": "topplus_wmts",
-    "name": "TopPlusOpen",
-    "capabilitiesUrl": "https://sgx.geodatenzentrum.de/wmts_topplus_open/1.0.0/WMTSCapabilities.xml",
-    "optionsFromCapabilities": true,
-    "urls": [
-      "https://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"
-    ],
-    "typ": "WMTS",
-    "layers": "web",
-    "format": "image/png",
-    "version": "1.0.0",
-    "origin": [
-      -3803165.98427,
-      8805908.08285
-    ],
-    "isBaseLayer": true,
-    "style": "default",
-    "transparent": false,
-    "tileSize": "256",
-    "minScale": "0",
-    "maxScale": "9999999999",
-    "tileMatrixSet": "EU_EPSG_25832_TOPPLUS",
-    "coordinateSystem": "EPSG:25832",
-    "legend": [
-      "https://sg.geodatenzentrum.de/wms_topplus_open?styles=&layer=web&service=WMS&format=image/png&sld_version=1.1.0&request=GetLegendGraphic&version=1.1.1"
-    ],
-    "requestEncoding": "REST",
-    "resLength": "13",
-    "layerAttribution": "Quellenvermerk: © Bundesamt für Kartographie und Geodäsie",
-    "datasets": [
-      {
-        "md_id": "A1C4E929-3EC9-4758-9677-DB4970D226AB",
-        "csw_url": " https://gdk.gdi-de.org/gdi-de/srv/ger/csw?",
-        "show_doc_url": "https://gdk.gdi-de.org/gdi-de/srv/ger/catalog.search#/metadata/"
-      }
-    ]
-  },
-  {
-    "id": "19173",
-    "name": "Digitales Höhenmodell Hamburg (DGM1)",
-    "url": "https://geodienste.hamburg.de/HH_WMS_DGM1",
-    "typ": "WMS",
-    "layers": "WMS_DGM1_HAMBURG",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 0,
-    "minScale": "0",
-    "maxScale": "2500000",
-    "infoFormat": "text/html",
-    "gfiAttributes": "showAll",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "https://geodienste.hamburg.de/HH_WMS_DGM1?language=ger&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=WMS_DGM1_HAMBURG&format=image/png&STYLE=default",
-    "cache": false,
-    "featureCount": 1,
-    "datasets": [
-      {
-        "md_id": "A39B4E86-15E2-4BF7-BA82-66F9913D5640",
-        "csw_url": "https://hmdk.metaver.de/csw",
-        "show_doc_url": "https://hmdk.metaver.de/trefferanzeige?docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/6D10BE89-636D-4359-8B27-4AB4DCA02F3A",
-        "md_name": "Digitales Höhenmodell Hamburg DGM 1",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "Höhe"
-        ],
-        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "452",
-    "name": "Digitale Orthophotos (belaubt) Hamburg",
-    "url": "https://geodienste.hamburg.de/HH_WMS_DOP_belaubt",
-    "typ": "WMS",
-    "layers": "Digitale Orthophotos belaubt",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 0,
-    "minScale": "0",
-    "maxScale": "2500000",
-    "gfiAttributes": "ignore",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "ignore",
-    "cache": false,
-    "featureCount": 1,
-    "datasets": [
-      {
-        "md_id": "B3008A4D-BA8E-4FDB-8FDD-559D02975BD7",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/2BEDFB21-C533-4C67-AF0F-66A5213F9B7B",
-        "md_name": "Digitale Orthophotos (belaubt) Hamburg",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "Orthofotografie"
-        ],
-        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "453",
-    "name": "Geobasiskarten (HamburgDE)",
-    "url": "https://geodienste.hamburg.de/HH_WMS_HamburgDE",
-    "typ": "WMS",
-    "layers": "Geobasiskarten_HHde",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 0,
-    "minScale": "0",
-    "maxScale": "2500000",
-    "gfiAttributes": "ignore",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "ignore",
-    "cache": false,
-    "featureCount": 1,
-    "datasets": [
-      {
-        "md_id": "B6A59A2B-2D40-4676-9094-0EB73039ED34",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/001719df-6619-40b7-aefe-32e8aaf49337",
-        "md_name": "GeoBasisKarten Hamburg",
-        "bbox": "466251.4292773354,5844577.894672247,661887.1257872104,6042030.30978004",
-        "kategorie_opendata": [
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "682",
-    "name": "Kindertagesstätten",
-    "url": "https://geodienste.hamburg.de/HH_WMS_KitaEinrichtung",
-    "typ": "WMS",
-    "layers": "KitaEinrichtungen",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 5,
-    "minScale": "0",
-    "maxScale": "2500000",
-    "infoFormat": "text/xml",
-    "gfiAttributes": {
-      "Name": "Name der Einrichtung",
-      "Strasse": "Straße",
-      "Hausnr": "Hausnummer",
-      "PLZ": "Postleitzahl"
+[{
+         "id" : "Basemap-farbe",
+         "name" : "Basemap (Farbausgabe)",
+         "url" : "https://sg.geodatenzentrum.de/wms_basemapde?",
+         "typ" : "WMS",
+         "layers" : "de_basemapde_web_raster_farbe",
+         "format" : "image/png",
+         "version" : "1.3.0",
+         "singleTile" : false,
+         "transparent" : true,
+         "transparency" : 0,
+         "urlIsVisible" : true,
+         "tilesize" : 512,
+         "gutter" : 0,
+         "minScale" : "0",
+         "maxScale" : "2500000",
+         "infoFormat" : "text/xml",
+         "gfiAttributes" : "ignore",
+         "gfiTheme" : "default",
+         "gfiComplex" : "false",
+         "layerAttribution" : "nicht vorhanden",
+         "legendURL" : "https://basemap.de/data/produkte/web_raster/legende/bm_web_raster_legende_col.png",
+         "cache" : true,
+         "featureCount" : 1,
+         "datasets": [{
+          "md_id": "69264016-D304-4DD6-BCEF-509C1ED19F14",
+          "csw_url" : "https://registry.gdi-de.org/id/de.bund.bkg.csw",
+          "rs_id" : "https://registry.gdi-de.org/id/de.bund.bkg.csw/055981a6-c6c6-4ea9-a3a3-755999526d2e"
+                }]
+    
+        
     },
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "",
-    "cache": false,
-    "featureCount": 1,
-    "datasets": [
-      {
-        "md_id": "C1AC42B2-C104-45B8-91F9-DA14C3C88A1F",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/6fdc7be8-520c-44ee-8e9a-855bac1b6a6b",
-        "md_name": "Kita Einrichtungen Hamburg",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Bevölkerung und Gesellschaft",
-          "Regionen und Städte"
-        ],
-        "kategorie_inspire": [
-          "Versorgungswirtschaft und staatliche Dienste"
-        ],
-        "kategorie_organisation": "Behörde für Arbeit, Gesundheit, Soziales, Familie und Integration"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "717",
-    "name": "M100000 (farbig)",
-    "url": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten",
-    "typ": "WMS",
-    "layers": "M100000_farbig",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 0,
-    "minScale": "79370",
-    "maxScale": "132283",
-    "infoFormat": "text/xml",
-    "gfiAttributes": "showAll",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten?language=ger&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=WMS_Geobasiskarten_Hamburg_N&format=image/png&STYLE=default",
-    "cache": false,
-    "featureCount": 1,
-    "datasets": [
-      {
-        "md_id": "B6A59A2B-2D40-4676-9094-0EB73039ED34",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/001719df-6619-40b7-aefe-32e8aaf49337",
-        "md_name": "GeoBasisKarten Hamburg",
-        "bbox": "466251.4292773354,5844577.894672247,661887.1257872104,6042030.30978004",
-        "kategorie_opendata": [
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "718",
-    "name": "M60000 (farbig)",
-    "url": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten",
-    "typ": "WMS",
-    "layers": "M60000_farbig",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 0,
-    "minScale": "43388",
-    "maxScale": "79370",
-    "infoFormat": "text/xml",
-    "gfiAttributes": "showAll",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten?language=ger&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=WMS_Geobasiskarten_Hamburg_N&format=image/png&STYLE=default",
-    "cache": false,
-    "featureCount": 1,
-    "datasets": [
-      {
-        "md_id": "B6A59A2B-2D40-4676-9094-0EB73039ED34",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/001719df-6619-40b7-aefe-32e8aaf49337",
-        "md_name": "GeoBasisKarten Hamburg",
-        "bbox": "466251.4292773354,5844577.894672247,661887.1257872104,6042030.30978004",
-        "kategorie_opendata": [
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "719",
-    "name": "M20000 (farbig)",
-    "url": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten",
-    "typ": "WMS",
-    "layers": "M20000_farbig",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 0,
-    "minScale": "15874",
-    "maxScale": "30689",
-    "infoFormat": "text/xml",
-    "gfiAttributes": "showAll",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten?language=ger&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=WMS_Geobasiskarten_Hamburg_N&format=image/png&STYLE=default",
-    "cache": false,
-    "featureCount": 1,
-    "datasets": [
-      {
-        "md_id": "B6A59A2B-2D40-4676-9094-0EB73039ED34",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/001719df-6619-40b7-aefe-32e8aaf49337",
-        "md_name": "GeoBasisKarten Hamburg",
-        "bbox": "466251.4292773354,5844577.894672247,661887.1257872104,6042030.30978004",
-        "kategorie_opendata": [
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "720",
-    "name": "M5000 (farbig)",
-    "url": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten",
-    "typ": "WMS",
-    "layers": "M5000_farbig",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 0,
-    "minScale": "3174",
-    "maxScale": "7407",
-    "infoFormat": "text/xml",
-    "gfiAttributes": "showAll",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten?language=ger&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=WMS_Geobasiskarten_Hamburg_N&format=image/png&STYLE=default",
-    "cache": false,
-    "featureCount": 1,
-    "datasets": [
-      {
-        "md_id": "B6A59A2B-2D40-4676-9094-0EB73039ED34",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/001719df-6619-40b7-aefe-32e8aaf49337",
-        "md_name": "GeoBasisKarten Hamburg",
-        "bbox": "466251.4292773354,5844577.894672247,661887.1257872104,6042030.30978004",
-        "kategorie_opendata": [
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "1132",
-    "name": "app:poi",
-    "url": "https://geodienste.hamburg.de/HH_WFS_Stadtgruen",
-    "typ": "WFS",
-    "featureType": "poi",
-    "outputFormat": "XML",
-    "version": "1.1.0",
-    "featureNS": "http://www.deegree.org/app",
-    "gfiAttributes": {
-      "Name": "Name",
-      "titel": "Titel",
-      "kurztext": "Beschreibung",
-      "internet": "Weitere Informationen",
-      "bild": "Bild",
-      "copyright": "Copyright"
+    {
+         "id" : "Basemap-sw",
+         "name" : "Basemap (SW-Ausgabe)",
+         "url" : "https://sg.geodatenzentrum.de/wms_basemapde?",
+         "typ" : "WMS",
+         "layers" : "de_basemapde_web_raster_grau",
+         "format" : "image/png",
+         "version" : "1.3.0",
+         "singleTile" : false,
+         "transparent" : true,
+         "transparency" : 0,
+         "urlIsVisible" : true,
+         "tilesize" : 512,
+         "gutter" : 0,
+         "minScale" : "0",
+         "maxScale" : "2500000",
+         "infoFormat" : "text/xml",
+         "gfiAttributes" : "ignore",
+         "gfiTheme" : "default",
+         "gfiComplex" : "false",
+         "layerAttribution" : "nicht vorhanden",
+         "legendURL" : "https://basemap.de/data/produkte/web_raster/legende/bm_web_raster_legende_gry.png",
+         "cache" : true,
+         "featureCount" : 1,
+         "datasets": [{
+          "md_id": "971C190C-AE96-41B7-8EC9-2DF20D9BE521",
+          "csw_url" : "https://registry.gdi-de.org/id/de.bund.bkg.csw",
+          "rs_id" : "https://registry.gdi-de.org/id/de.bund.bkg.csw/1371b05a-055b-4749-8390-95cda942f40c"
+                }]
     },
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "",
-    "hitTolerance": "",
-    "datasets": [
-      {
-        "md_id": "4E67DF32-AAC0-4410-A215-4110F8D50BBD",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/e085712c-1cce-49b6-a4c3-c28e58a76da4",
-        "md_name": "100 Jahre Stadtgrün - Stadtpark und Volkspark",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Bildung, Kultur und Sport",
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Behörde für Umwelt, Klima, Energie und Agrarwirtschaft (BUKEA)"
-      }
-    ],
-    "urlIsVisible": true
-  },
-  {
-    "id": "1133",
-    "name": "app:strecken",
-    "url": "https://geodienste.hamburg.de/HH_WFS_Stadtgruen",
-    "typ": "WFS",
-    "featureType": "strecken",
-    "outputFormat": "XML",
-    "version": "1.1.0",
-    "featureNS": "http://www.deegree.org/app",
-    "gfiAttributes": "showAll",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "",
-    "hitTolerance": "",
-    "datasets": [
-      {
-        "md_id": "4E67DF32-AAC0-4410-A215-4110F8D50BBD",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/e085712c-1cce-49b6-a4c3-c28e58a76da4",
-        "md_name": "100 Jahre Stadtgrün - Stadtpark und Volkspark",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Bildung, Kultur und Sport",
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Behörde für Umwelt, Klima, Energie und Agrarwirtschaft (BUKEA)"
-      }
-    ],
-    "urlIsVisible": true
-  },
-  {
-    "id": "1711",
-    "name": "Krankenhäuser",
-    "url": "https://geodienste.hamburg.de/HH_WFS_Krankenhaeuser",
-    "typ": "WFS",
-    "featureType": "gesundheit_krankenhaeuser",
-    "outputFormat": "XML",
-    "version": "1.1.0",
-    "featureNS": "https://registry.gdi-de.org/id/de.hh.up",
-    "gfiAttributes": {
-      "name": "Name",
-      "zusatz_einrichtungsname": "Zusatz zur Einrichtung",
-      "adresse": "Adresse",
-      "ort": "Ort",
-      "homepage": "Link",
-      "krankenhausverzeichnis": "Krankenhausverzeichnis",
-      "traegerschaft": "Trägerschaft",
-      "art_der_stationaeren_versorgung": "Art der stationären Versorgung",
-      "planbetten": "Planbetten",
-      "teilstationaere_behandlungsplaetze": "Teilstationäre Behandlungsplätze",
-      "not_und_unfallversorgung": "Not- und Unfallversorgung",
-      "geburtshilfe": "Geburtshilfe",
-      "geburtshilfe_versorgungsstufe": "Geburtshilfe-Versorgungsstufe",
-      "anmerkung_ort": "Hinweis",
-      "stand": "Stand"
+	{
+        "id": "fis_k5_f",
+        "name": "Geobasiskarte farbig (K5 von Berlin)",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k5_farbe",
+        "typ": "WMS",
+        "layers": "0",
+        "format": "image/png",
+        "version": "1.1.1",
+        "singleTile": false,
+        "transparent": true,
+        "transparency": 0,
+        "tilesize": "512",
+        "minScale": "0",
+        "maxScale": "2500000",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "legendURL": "ignore",
+        "cache": true,
+        "featureCount": "1"
     },
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "",
-    "hitTolerance": 0,
-    "datasets": [
-      {
-        "md_id": "9329C2CB-4552-4780-B343-0CC847538896",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/010d7370-5306-4b63-983b-59cdd6e94c3c",
-        "md_name": "Krankenhäuser Hamburg",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Gesundheit"
-        ],
-        "kategorie_inspire": [
-          "Versorgungswirtschaft und staatliche Dienste"
-        ],
-        "kategorie_organisation": "Behörde für Arbeit, Gesundheit, Soziales, Familie und Integration"
-      }
-    ],
-    "urlIsVisible": true
-  },
-  {
-    "id": "1731",
-    "name": "Krankenhäuser",
-    "url": "https://geodienste.hamburg.de/HH_WMS_Krankenhaeuser",
-    "typ": "WMS",
-    "layers": "krankenhaeuser",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 7,
-    "minScale": "0",
-    "maxScale": "2500000",
-    "infoFormat": "text/xml",
-    "gfiAttributes": {
-      "name": "Name",
-      "zusatz_einrichtungsname": "Zusatz zur Einrichtung",
-      "adresse": "Adresse",
-      "ort": "Ort",
-      "homepage": "Link",
-      "krankenhausverzeichnis": "Krankenhausverzeichnis",
-      "traegerschaft": "Trägerschaft",
-      "art_der_stationaeren_versorgung": "Art der stationären Versorgung",
-      "planbetten": "Planbetten",
-      "teilstationaere_behandlungsplaetze": "Teilstationäre Behandlungsplätze",
-      "not_und_unfallversorgung": "Not- und Unfallversorgung",
-      "geburtshilfe": "Geburtshilfe",
-      "geburtshilfe_versorgungsstufe": "Geburtshilfe-Versorgungsstufe",
-      "anmerkung_ort": "Hinweis",
-      "stand": "Stand"
+
+    {
+        "id": "fis_k5_sw",
+        "name": "Geobasiskarte s/w (K5 von Berlin)",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k5_sw",
+        "typ": "WMS",
+        "layers": "0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "singleTile": false,
+        "transparent": true,
+        "transparency": 0,
+        "tilesize": "512",
+        "minScale": "0",
+        "maxScale": "250000",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "legendURL": "ignore",
+        "cache": true,
+        "featureCount": "1"
     },
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "",
-    "cache": false,
-    "featureCount": 2,
-    "datasets": [
-      {
-        "md_id": "9329C2CB-4552-4780-B343-0CC847538896",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/010d7370-5306-4b63-983b-59cdd6e94c3c",
-        "md_name": "Krankenhäuser Hamburg",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Gesundheit"
-        ],
-        "kategorie_inspire": [
-          "Versorgungswirtschaft und staatliche Dienste"
-        ],
-        "kategorie_organisation": "Behörde für Arbeit, Gesundheit, Soziales, Familie und Integration"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "2003",
-    "name": "de.hh.up:nr f naturschutzgebiet",
-    "url": "https://geodienste.hamburg.de/HH_WFS_Schutzgebiete",
-    "typ": "WFS",
-    "featureType": "nr_f_naturschutzgebiet",
-    "outputFormat": "XML",
-    "version": "1.1.0",
-    "featureNS": "https://registry.gdi-de.org/id/de.hh.up",
-    "gfiAttributes": "showAll",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "",
-    "hitTolerance": "",
-    "datasets": [
-      {
-        "md_id": "8761AF79-641F-4E64-AE4D-280FAAEF4EC2",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/d0361a3c-27ed-4c5a-bcbe-08a4a3793f29",
-        "md_name": "Naturschutzgebiete in Hamburg",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "Schutzgebiete"
-        ],
-        "kategorie_organisation": "Behörde für Umwelt, Klima, Energie und Agrarwirtschaft (BUKEA)"
-      }
-    ],
-    "urlIsVisible": true
-  },
-  {
-    "id": "2426",
-    "name": "Bezirke",
-    "url": "https://geodienste.hamburg.de/HH_WMS_Verwaltungsgrenzen",
-    "typ": "WMS",
-    "layers": "bezirke",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": true,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 0,
-    "minScale": "0",
-    "maxScale": "2500000",
-    "infoFormat": "text/xml",
-    "gfiAttributes": {
-      "bezirk": "Bezirk",
-      "bezirk_name": "Bezirksname"
+
+    {
+        "id": "fis_webatlas_f",
+        "name": "WebAtlas Berlin (farbig)",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_webatlasberlin",
+        "typ": "WMS",
+        "format": "image/png",
+        "layers": "0",
+        "version": "1.1.1",
+        "singleTile": false,
+        "transparent": true,
+        "transparency": 0,
+        "tilesize": "512",
+        "minScale": "10010",
+        "maxScale": "2500000",
+        "gfiAttributes": "ignore",
+        "legendURL": "ignore",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
     },
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "",
-    "cache": false,
-    "featureCount": 1,
-    "datasets": [
-      {
-        "md_id": "F35EAC11-C236-429F-B1BF-751C0C18E8B7",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/2e348904-17de-48fd-9376-8f6fd2750feb",
-        "md_name": "ALKIS Verwaltungsgrenzen Hamburg",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "3302",
-    "name": "Trinkwasser",
-    "url": "https://geodienste.hamburg.de/HH_WMS_Trinkwasserdaten",
-    "typ": "WMS",
-    "layers": "trinkwasser",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 15,
-    "minScale": "0",
-    "maxScale": "2500000",
-    "infoFormat": "text/xml",
-    "gfiAttributes": {
-      "probenahmestelle_probe_entnahmedatum": "Entnahmedatum",
-      "bezirk": "Bezirk",
-      "stadtteil": "Stadtteil",
-      "versorgungsgebiet": "Versorgungsgebiet",
-      "coliforme_bakterien": "Coliforme Bakterien",
-      "coliforme_bakterien_grenzwertwarnung": "Coliforme Bakterien Grenzwertwarnung",
-      "coliforme_bakterien_mpn": "Coliforme Bakterien MPN",
-      "coliforme_bakterien_mpn_grenzwertwarnung": "Coliforme Bakterien MPN Grenzwertwarnung",
-      "escherichia_coli": "Escherichia coli",
-      "escherichia_coli_grenzwertwarnung": "Escherichia coli Grenzwertwarnung",
-      "escherichia_coli__e_coli__mpn": "Escherichia coli (E.coli) MPN",
-      "escherichia_coli__e_coli__mpn_grenzwertwarnung": "Escherichia coli (E.coli) MPN Grenzwertwarnung",
-      "koloniezahl_36c__trinkwv_2001_anlage_5_i_d_bb___trinkwv_00": "Koloniezahl, 36°C",
-      "koloniezahl_36c__trinkwv_2001_anlage_5_i_d_bb___trinkwv_19": "Koloniezahl, 36°C Grenzwertwarnung",
-      "koloniezahl_20c__trinkwv_1990_": "Koloniezahl, 20°C",
-      "koloniezahl_20c__trinkwv_1990__grenzwertwarnung": "Koloniezahl, 20°C Grenzwertwarnung",
-      "intestinale_enterokokken": "intestinale Enterokokken",
-      "intestinale_enterokokken_grenzwertwarnung": "intestinale Enterokokken Grenzwertwarnung",
-      "blei": "Blei",
-      "blei_grenzwertwarnung": "Blei Grenzwertwarnung",
-      "kupfer_gesamt": "Kupfer, gesamt",
-      "kupfer_gesamt_grenzwertwarnung": "Kupfer, gesamt Grenzwertwarnung",
-      "nickel": "Nickel",
-      "nickel_grenzwertwarnung": "Nickel Grenzwertwarnung",
-      "cadmium": "Cadmium",
-      "cadmium_grenzwertwarnung": "Cadmium Grenzwertwarnung",
-      "chrom_gesamt": "Chrom, gesamt",
-      "chrom_gesamt_grenzwertwarnung": "Chrom, gesamt Grenzwertwarnung",
-      "antimon": "Antimon",
-      "antimon_grenzwertwarnung": "Antimon Grenzwertwarnung",
-      "arsen": "Arsen",
-      "arsen_grenzwertwarnung": "Arsen Grenzwertwarnung",
-      "ammonium": "Ammonium",
-      "ammonium_grenzwertwarnung": "Ammonium Grenzwertwarnung",
-      "calcium": "Calcium",
-      "calcium_grenzwertwarnung": "Calcium Grenzwertwarnung",
-      "chlorid": "Chlorid",
-      "chlorid_grenzwertwarnung": "Chlorid Grenzwertwarnung",
-      "aluminium_gesamt": "Aluminium, gesamt",
-      "aluminium_gesamt_grenzwertwarnung": "Aluminium, gesamt Grenzwertwarnung",
-      "bor": "Bor",
-      "bor_grenzwertwarnung": "Bor Grenzwertwarnung",
-      "bromat": "Bromat",
-      "eisen_gesamt": "Eisen, gesamt",
-      "eisen_gesamt_grenzwertwarnung": "Eisen, gesamt Grenzwertwarnung",
-      "mangan_gesamt": "Mangan, gesamt",
-      "mangan_gesamt_grenzwertwarnung": "Mangan, gesamt Grenzwertwarnung",
-      "gesamthaerte": "Gesamthärte",
-      "gesamthaerte_grenzwertwarnung": "Gesamthärte Grenzwertwarnung",
-      "kalium": "Kalium",
-      "kalium_grenzwertwarnung": "Kalium Grenzwertwarnung",
-      "magnesium": "Magnesium",
-      "magnesium_grenzwertwarnung": "Magnesium Grenzwertwarnung",
-      "natrium": "Natrium",
-      "natrium_grenzwertwarnung": "Natrium Grenzwertwarnung",
-      "nitrat": "Nitrat",
-      "nitrat_grenzwertwarnung": "Nitrat Grenzwertwarnung",
-      "nitrit": "Nitrit",
-      "nitrit_grenzwertwarnung": "Nitrit Grenzwertwarnung",
-      "ph_wert": "ph-Wert",
-      "ph_wert_grenzwertwarnung": "ph-Wert Grenzwertwarnung",
-      "elektrische_leitfaehigkeit_bei_20c": "elektrische Leitfähigkeit bei 20°C",
-      "elektrische_leitfaehigkeit_bei_20c_grenzwertwarnung": "elektrische Leitfähigkeit bei 20°C Grenzwertwarnung",
-      "fluorid": "Fluorid",
-      "fluorid_grenzwertwarnung": "Fluorid Grenzwertwarnung",
-      "quecksilber": "Quecksilber",
-      "quecksilber_grenzwertwarnung": "Quecksilber Grenzwertwarnung",
-      "trichlorethen": "Trichlorethen",
-      "trichlorethen_grenzwertwarnung": "Trichlorethen Grenzwertwarnung",
-      "dichlorethan": "1,2-Dichlorethan",
-      "dichlorethan_grenzwertwarnung": "1,2-Dichlorethan Grenzwertwarnung",
-      "vinylchlorid": "Vinylchlorid",
-      "vinylchlorid_grenzwertwarnung": "Vinylchlorid Grenzwertwarnung",
-      "summe_polycyclische_aromatische_kohlenwasserst__2356": "Summe polycyclische aromatische Kohlenwasserst. 2,3,5,6",
-      "summe_polycyclische_aromatische_kohlenwasserst__2356_grenzwe": "Summe polycyclische aromatische Kohlenwasserst. 2,3,5,6 Grenzwertwarnung",
-      "selen": "Selen",
-      "selen_grenzwertwarnung": "Selen Grenzwertwarnung",
-      "sulfat": "Sulfat",
-      "sulfat_grenzwertwarnung": "Sulfat Grenzwertwarnung",
-      "summe_trihalogenmethane": "Summe Trihalogenmethane",
-      "summe_trihalogenmethane_grenzwertwarnung": "Summe Trihalogenmethane Grenzwertwarnung",
-      "gesamter_organisch_gebundener_kohlenstoff": "gesamter organisch gebundener Kohlenstoff",
-      "gesamter_organisch_gebundener_kohlenstoff_grenzwertwarnung": "gesamter organisch gebundener Kohlenstoff Grenzwertwarnung",
-      "uran": "Uran",
-      "uran_grenzwertwarnung": "Uran Grenzwertwarnung",
-      "summe_pflanzenschutzmittel": "Summe Pflanzenschutzmittel",
-      "summe_pflanzenschutzmittel_grenzwertwarnung": "Summe Pflanzenschutzmittel Grenzwertwarnung",
-      "benzo_a_pyren": "Benzo[a]pyren",
-      "benzo_a_pyren_grenzwertwarnung": "Benzo[a]pyren Grenzwertwarnung",
-      "benzol": "Benzol",
-      "benzol_grenzwertwarnung": "Benzol_Grenzwertwarnung"
+
+    {
+        "id": "fis_webatlas_sw",
+        "name": "WebAtlas Berlin (s/w)",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_webatlasberlin",
+        "typ": "WMS",
+        "format": "image/png",
+        "layers": "1",
+        "version": "1.1.1",
+        "singleTile": false,
+        "transparent": true,
+        "transparency": 0,
+        "tilesize": "512",
+        "minScale": "10010",
+        "maxScale": "2500000",
+        "gfiAttributes": "ignore",
+        "legendURL": "ignore",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
     },
-    "gfiTheme": "trinkwasser",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "",
-    "cache": false,
-    "featureCount": 1,
-    "datasets": [
-      {
-        "md_id": "73A344E9-CDB5-4A17-89C1-05E202989755",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/2535cb6b-0447-4c4a-9bcd-63c1ac3e0622",
-        "md_name": "Hamburger Trinkwasserdatenbank (ZTEIS)",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "Gesundheit und Sicherheit"
-        ],
-        "kategorie_organisation": "Behörde für Justiz und Verbraucherschutz (BJV)"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "4560",
-    "name": "app:hamburgconvention",
-    "url": "https://geodienste.hamburg.de/HH_WFS_Eventlotse",
-    "typ": "WFS",
-    "featureType": "hamburgconvention",
-    "outputFormat": "XML",
-    "version": "1.1.0",
-    "featureNS": "http://www.deegree.org/app",
-    "gfiAttributes": {
-      "flaechenname": "Flächenname",
-      "bezirk": "Bezirk",
-      "flaeche_eventlotse_m": "Eventfläche",
-      "hinweisstempel": "Hinweisstempel",
-      "premiumflaeche": "Premiumfläche",
-      "url": "Link zur Detailansicht"
+
+
+    {
+        "id": "990006",
+        "name": "Berlin-Zoom (SW-Ausgabe)",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/berlinzoom_sw",
+        "typ": "WMS",
+        "format": "image/png",
+        "layers": "0",
+        "version": "1.1.1",
+        "singleTile": false,
+        "transparent": true,
+        "transparency": 0,
+        "tilesize": "512",
+        "minScale": "0",
+        "maxScale": "2500000",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "layerAttribution": "Berlin-Zoom (SW-Ausgabe)",
+        "legendURL": "ignore",
+        "cache": true,
+        "featureCount": "1"
     },
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "",
-    "hitTolerance": "",
-    "datasets": [
-      {
-        "md_id": "295985A0-B456-4BAD-904B-B780508F214C",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/38c52173-45cf-41bc-bdf8-373de9d12947",
-        "md_name": "Eventlotse Daten Hamburg",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Bildung, Kultur und Sport"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Hamburg Convention Bureau GmbH"
-      }
-    ],
-    "urlIsVisible": true
-  },
-  {
-    "id": "4561",
-    "name": "Eventlotse Hamburgconvention",
-    "url": "https://geodienste.hamburg.de/HH_WMS_Eventlotse",
-    "typ": "WMS",
-    "layers": "eventlotse_hamburgconvention",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 0,
-    "minScale": "0",
-    "maxScale": "2500000",
-    "gfiAttributes": {
-      "flaechenname": "Flächenname",
-      "bezirk": "Bezirk",
-      "flaeche_eventlotse_m": "Eventfläche",
-      "hinweisstempel": "Hinweisstempel",
-      "premiumflaeche": "Premiumfläche",
-      "url": "Link zur Detailansicht"
+    {
+        "id": "Alkis_Fis",
+        "name": "ALKIS",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk_alkis",
+        "typ": "WMS",
+        "format": "image/png",
+        "layers": ["30", "5", "21", "0", "29", "4", "7", "13", "9", "25", "8", "18", "28", "12", "22", "34", "26", "47", "46"],
+        "version": "1.1.1",
+        "singleTile": false,
+        "transparent": true,
+        "transparency": 0,
+        "tilesize": "512",
+        "minScale": "0",
+        "maxScale": "250000",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "layerAttribution": "ALKIS (farbig) Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\". Es sind die datenschutzrechtlichen Bestimmungen, insbesondere das Bundesdatenschutzgesetz, zu beachten.",
+        "legendURL": "https://fbinter.stadt-berlin.de/fb_daten/legenden/leg_alkis.png",
+        "cache": true,
+        "featureCount": "1",
+        "datasets": [{
+            "md_id": "78d98821-42e2-3c82-a0f7-1baad959b74e",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/cb2897d1-4258-3312-a3db-7ceb2ad86be7",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }]
     },
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "",
-    "cache": false,
-    "featureCount": 10,
-    "datasets": [
-      {
-        "md_id": "295985A0-B456-4BAD-904B-B780508F214C",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/38c52173-45cf-41bc-bdf8-373de9d12947",
-        "md_name": "Eventlotse Daten Hamburg",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Bildung, Kultur und Sport"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Hamburg Convention Bureau GmbH"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "8712",
-    "name": "de.hh.up:staatliche schulen",
-    "url": "https://geodienste.hamburg.de/HH_WFS_Schulen",
-    "typ": "WFS",
-    "featureType": "staatliche_schulen",
-    "outputFormat": "XML",
-    "version": "1.1.0",
-    "featureNS": "https://registry.gdi-de.org/id/de.hh.up",
-    "gfiAttributes": {
-      "schulname": "Name",
-      "schulform": "Schulform",
-      "schultyp": "Schulstandort",
-      "schwerpunktschule": "Schwerpunktschule Inklusion",
-      "adresse_strasse_hausnr": "Straße",
-      "adresse_ort": "Ort",
-      "stadtteil": "Stadtteil",
-      "bezirk": "Bezirk",
-      "schul_telefonnr": "Telefon",
-      "schul_email": "Email",
-      "schulportrait": "Schulportrait",
-      "schul_homepage": "Homepage",
-      "name_schulleiter": "Schulleitung",
-      "zustaendiges_rebbz": "ReBBZ Standort",
-      "rebbz_homepage": "Homepage des ReBBZ",
-      "schulaufsicht": "Schulaufsicht",
-      "offenetuer": "Tag d. offenen Tür",
-      "anzahl_schueler": "Schülerzahl",
-      "anzahl_schueler_gesamt": "Schülerzahl gesamt",
-      "zuegigkeit_kl_1": "Parallelklassen (Kl.1)",
-      "standortkl1": "Standort Klasse 1",
-      "zuegigkeit_kl_5": "Parallelklassen (Kl.5)",
-      "standortkl5": "Standort Klasse 5",
-      "abschluss": "Abschluss",
-      "foerderart": "Förderart",
-      "auszeichnung": "Auszeichnung",
-      "schuelerzeitung": "Schülerzeitung",
-      "schulische_ausrichtung": "Schwerpunkte in den Angeboten",
-      "schulpartnerschaft": "Schulpartnerschaft",
-      "schulinspektion_link": "Schulinspektion",
-      "einzugsgebiet": "Einzugsgebiet",
-      "schulwahl_wohnort": "Schulwahl Wohnort",
-      "fremdsprache": "Fremdsprachen",
-      "fremdsprache_mit_klasse": "Fremdsprachen ab Klassenstufe",
-      "bilingual": "Bilingual",
-      "sprachzertifikat": "Sprachzertifikat",
-      "ganztagsform": "Ganztagsform",
-      "kernzeitbetreuung": "Anteil Kernzeitbetreuung",
-      "ferienbetreuung_anteil": "Anteil Ferienbetreuung",
-      "kernunterricht": "Kernunterricht",
-      "mittagspause": "Mittagspause",
-      "kantine_vorh": "Kantine",
-      "wahlmoeglichkeit_essen": "Wahlmöglichkeit Essen",
-      "vegetarisch": "Vegetarisch",
-      "nutzung_kantine_anteil": "Nutzung Kantine",
-      "kiosk_vorh": "Kiosk",
-      "name_verwaltungsleitung": "Verwaltungsleitung",
-      "name_stellv_schulleiter": "Stellv. Schulleitung",
-      "ansprechp_buero": "Ansprechpartner Büro",
-      "ansprechp_klasse_1": "Ansprechpartner Kl.1",
-      "sozialindex": "Sozialindex",
-      "ansprechp_klasse_5": "Ansprechpartner Kl.5",
-      "name_oberstufenkoordinator": "Oberstufenkoordinator",
-      "oberstufenprofil": "Oberstufenprofil",
-      "standortoberstufe": "Standort Oberstufe",
-      "lgv_standortk_erwachsenenbildung": "Erwachsenenbildung",
-      "bildungsangebot_fuer_zuwanderer": "Bildungsangebot für Zuwanderer"
+    {
+        "id": "Alkis_sw_Fis",
+        "name": "ALKIS_SW",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk_alkis_sw",
+        "typ": "WMS",
+        "format": "image/png",
+        "layers": ["30", "4", "19", "0", "13", "9", "8", "18", "25", "20", "17", "12", "34", "28", "6", "22", "26", "47", "46"],
+        "version": "1.1.1",
+        "singleTile": false,
+        "transparent": true,
+        "transparency": 0,
+        "tilesize": "512",
+        "minScale": "0",
+        "maxScale": "250000",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "layerAttribution": "ALKIS (SW) Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "legendURL": "https://fbinter.stadt-berlin.de/fb_daten/legenden/leg_alkis_sw.png",
+        "cache": true,
+        "featureCount": "1",
+        "datasets": [{
+            "md_id": "270c2fae-feb3-3d1a-bb07-4421f79bc3a2",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/cb2897d1-4258-3312-a3db-7ceb2ad86be7",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }]
     },
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "",
-    "hitTolerance": 0,
-    "datasets": [
-      {
-        "md_id": "D3DDBBA3-7329-475C-BB07-14D539ED6B1E",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/7988c147-7523-45bb-8f18-7f39d0d20541",
-        "md_name": "Schulstammdaten und Schülerzahlen der Hamburger Schulen",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Wissenschaft und Technologie",
-          "Regionen und Städte",
-          "Bevölkerung und Gesellschaft"
-        ],
-        "kategorie_inspire": [
-          "Versorgungswirtschaft und staatliche Dienste"
-        ],
-        "kategorie_organisation": "Behörde für Schule und Berufsbildung"
-      }
-    ],
-    "urlIsVisible": true
-  },
-  {
-    "id": "10882",
-    "name": "Bike and Ride Parkplätze",
-    "url": "https://geodienste.hamburg.de/HH_WFS_Bike_und_Ride",
-    "typ": "WFS",
-    "featureType": "bike_und_ride",
-    "outputFormat": "XML",
-    "version": "1.1.0",
-    "featureNS": "https://registry.gdi-de.org/id/de.hh.up",
-    "gfiAttributes": {
-      "haltestelle": "Haltestelle",
-      "fahrradstellplaetze_gesamt": "Fahrradstellplätze gesamt",
-      "davon_nicht_ueberdachte_stellplaetze": "Davon nicht überdachte Stellplätze",
-      "davon_ueberdachte_stellplaetze": "Davon überdachte Stellplätze",
-      "davon_gesicherte_mietstellplaetze": "Davon gesicherte Mietstellplätze",
-      "schliessfaecher": "Schließfächer",
-      "internet": "Internet",
-      "email": "E-Mail",
-      "stand": "Stand"
+    {
+        "id": "Verkehrslage",
+        "name": "Verkehrslage",
+        "url": "https://api.viz.berlin.de/geoserver/mdh/wms?",
+        "typ": "WMS",
+        "layers": "inrixosm",
+        "format": "image/png",
+        "version": "1.1.1",
+        "singleTile": true,
+        "transparent": true,
+        "transparency": 0,
+        "tilesize": "512",
+        "gutter": "0",
+        "minScale": "1500",
+        "maxScale": "3000000",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "layerAttribution": "nicht vorhanden",
+        "cache": true,
+        "featureCount": "1",
+        "epsg": "EPSG:25833",
+        "legend": "https://api.viz.berlin.de/geoserver/www/legende_los.png",
+        "datasets": [{
+            "md_id": "verkehrslage",
+            "md_name": "Verkehrslage",
+            "csw_url": "https://api.viz.berlin.de/csw"
+        }]
     },
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "",
-    "hitTolerance": 0,
-    "datasets": [
-      {
-        "md_id": "6520CC0A-D2A6-11D5-88C8-000102DCCF41",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/c8898da0-c19e-453e-9e48-0de68994a3cb",
-        "md_name": "Bike + Ride Anlagen Hamburg",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Verkehr"
-        ],
-        "kategorie_inspire": [
-          "Verkehrsnetze"
-        ],
-        "kategorie_organisation": "Behörde für Verkehr und Mobilitätswende (BVM)"
-      }
-    ],
-    "urlIsVisible": true
-  },
-  {
-    "id": "13709",
-    "name": "M125000 (farbig)",
-    "url": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten",
-    "typ": "WMS",
-    "layers": "M125000_farbig",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 0,
-    "minScale": "132283",
-    "maxScale": "2500000",
-    "infoFormat": "text/xml",
-    "gfiAttributes": "showAll",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten?language=ger&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=WMS_Geobasiskarten_Hamburg_N&format=image/png&STYLE=default",
-    "cache": false,
-    "featureCount": 1,
-    "datasets": [
-      {
-        "md_id": "B6A59A2B-2D40-4676-9094-0EB73039ED34",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/001719df-6619-40b7-aefe-32e8aaf49337",
-        "md_name": "GeoBasisKarten Hamburg",
-        "bbox": "466251.4292773354,5844577.894672247,661887.1257872104,6042030.30978004",
-        "kategorie_opendata": [
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "13712",
-    "name": "M40000 (farbig)",
-    "url": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten",
-    "typ": "WMS",
-    "layers": "M40000_farbig",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 0,
-    "minScale": "30689",
-    "maxScale": "43388",
-    "infoFormat": "text/xml",
-    "gfiAttributes": "showAll",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten?language=ger&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=WMS_Geobasiskarten_Hamburg_N&format=image/png&STYLE=default",
-    "cache": false,
-    "featureCount": 1,
-    "datasets": [
-      {
-        "md_id": "B6A59A2B-2D40-4676-9094-0EB73039ED34",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/001719df-6619-40b7-aefe-32e8aaf49337",
-        "md_name": "GeoBasisKarten Hamburg",
-        "bbox": "466251.4292773354,5844577.894672247,661887.1257872104,6042030.30978004",
-        "kategorie_opendata": [
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "13714",
-    "name": "M10000 (farbig)",
-    "url": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten",
-    "typ": "WMS",
-    "layers": "M10000_farbig",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 0,
-    "minScale": "7407",
-    "maxScale": "15874",
-    "infoFormat": "text/xml",
-    "gfiAttributes": "showAll",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten?language=ger&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=WMS_Geobasiskarten_Hamburg_N&format=image/png&STYLE=default",
-    "cache": false,
-    "featureCount": 1,
-    "datasets": [
-      {
-        "md_id": "B6A59A2B-2D40-4676-9094-0EB73039ED34",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/001719df-6619-40b7-aefe-32e8aaf49337",
-        "md_name": "GeoBasisKarten Hamburg",
-        "bbox": "466251.4292773354,5844577.894672247,661887.1257872104,6042030.30978004",
-        "kategorie_opendata": [
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "13716",
-    "name": "M2500 (farbig)",
-    "url": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten",
-    "typ": "WMS",
-    "layers": "M2500_farbig",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "urlIsVisible": true,
-    "tilesize": 512,
-    "gutter": 0,
-    "minScale": "0",
-    "maxScale": "3174",
-    "infoFormat": "text/xml",
-    "gfiAttributes": "showAll",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten?language=ger&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=WMS_Geobasiskarten_Hamburg_N&format=image/png&STYLE=default",
-    "cache": false,
-    "featureCount": 1,
-    "datasets": [
-      {
-        "md_id": "B6A59A2B-2D40-4676-9094-0EB73039ED34",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/001719df-6619-40b7-aefe-32e8aaf49337",
-        "md_name": "GeoBasisKarten Hamburg",
-        "bbox": "466251.4292773354,5844577.894672247,661887.1257872104,6042030.30978004",
-        "kategorie_opendata": [
-          "Umwelt"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
-      }
-    ],
-    "notSupportedIn3D": false
-  },
-  {
-    "id": "18105",
-    "name": "Anzahl frei verfügbarer Fahrräder je StadtRad-Station",
-    "url": "https://iot.hamburg.de",
-    "typ": "SensorThings",
-    "version": "1.1",
-    "minScale": "0",
-    "maxScale": "1000000",
-    "gfiAttributes": {
-      "description": "Stationsname",
-      "dataStreamDescription": "Datenbeschreibung",
-      "stationsNummer": "Stationsnummer",
-      "assetID": "Stations-ID",
-      "dataStreamValue": "Anzahl freie Fahrräder",
-      "dataStreamPhenomenonTime": "Letzte Aktualisierung",
-      "ownerThing": "Betreiber",
-      "ownerData": "Dateneigentümer",
-      "metadata": "Metadateneintrag",
-      "@iot.id": "Thing-ID",
-      "dataStreamId": "Datastream-ID",
-      "@Datastreams.0": {
-        "type": "linechart",
-        "name": "1",
-        "query": "Observations?$filter=(resultTime gt now() sub duration'PT24H')&$orderby=phenomenonTime",
-        "format": "dd HH:mm",
-        "options": {
-          "pointRadius": 1
-        },
-        "download": true
-      }
+    {
+        "id": "s_lades_standort",
+        "name": "Elektro-Ladesäulen - Standorte",
+        "crs": "urn:ogc:def:crs:EPSG:6.9:25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_lades_standort",
+        "typ": "WFS",
+        "featureType": "fis:s_lades_standort",
+        "datasets": [{
+            "md_id": "296596d0-dde2-3a73-b769-5853fe3d8f80",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/eeebbc13-75dd-3122-965f-2efeabbfc358",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }],
+        "featureNS": "http://www.berlin.de/broker",
+        "wfsFilter": "resources/Metadaten/Ladesaeulen_Filter.xml",
+        "gfiAttributes": {
+            "importid": "Schlüssel",
+            "id": "id",
+            "adresse": "Adresse",
+            "plz": "Postleitzahl",
+            "ort": "Ort",
+            "bezirk": "Bezirk",
+            "oeffentlicher_raum": "Zugang",
+            "art_ladeeinrichtung": "Art der Ladeeinrichtung",
+            "anzahl_ladepunkte": "Anzahl der Ladepunkte",
+            "ladeleistung_1": "Leistung von Ladepunkt 1 [kW]",
+            "anschluss_1": "Anschlusstyp von Ladepunkt 1",
+            "ladeleistung_2": "Leistung von Ladepunkt 2 [kW]",
+            "anschluss_2": "Anschlusstyp von Ladepunkt 2",
+            "ladeleistung_3": "Leistung von Ladepunkt 3 [kW]",
+            "anschluss_3": "Anschlusstyp von Ladepunkt 3",
+            "ladeleistung_4": "Leistung von Ladepunkt 4 [kW]",
+            "anschluss_4": "Anschlusstyp von Ladepunkt 4",
+            "betreiber": "Betreiber",
+            "standort_nr": "Standortnummer",
+            "inbetriebnahme": "Inbetriebnahmedatum",
+            "datenquelle": "Datenquelle"
+        }
     },
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "",
-    "datasets": [
-      {
-        "md_id": "D18F375E-FA5F-4998-AFF8-557969F44479",
-        "csw_url": "https://metaver.de/csw",
-        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
-        "rs_id": "https://registry.gdi-de.org/id/de.hh/08d1158c-2b5b-49cb-91c3-0ca9fe22a955",
-        "md_name": "StadtRAD-Stationen Hamburg",
-        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
-        "kategorie_opendata": [
-          "Verkehr"
-        ],
-        "kategorie_inspire": [
-          "kein INSPIRE-Thema"
-        ],
-        "kategorie_organisation": "Behörde für Verkehr und Mobilitätswende (BVM)"
-      }
-    ],
-    "urlParameter": {
-      "root": "Datastreams",
-      "filter": "properties/serviceName%20eq%20%27HH_STA_StadtRad%27 and properties/layerName%20eq%20%27Fahrraeder%27",
-      "expand": "Observations($orderby=phenomenonTime%20desc;$top=1),Thing($expand=Locations)"
+    {
+        "id": "Strassenbefahrung2014",
+        "name": "translate#common:berlinLayers.strassenbefahrung2014",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_StraDa",
+        "typ": "WMS",
+        "layers": "68,66,67,65,64,63,62,61,60,59,58,57,56,55,54,53,52,50,49,48,47,46,45,44,43,42,41,40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1",
+        "format": "image/png",
+        "version": "1.1.1",
+        "singleTile": true,
+        "transparent": true,
+        "transparency": 0,
+        "tilesize": "512",
+        "gutter": "0",
+        "minScale": "100",
+        "maxScale": "210000",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "layerAttribution": "nicht vorhanden",
+        "cache": true,
+        "featureCount": "1",
+        "epsg": "EPSG:25833",
+        "legendURL": "https://fbinter.stadt-berlin.de/fb_daten/legenden/leg_Strassenbefahrung_2014.png",
+        "datasets": [{
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "md_name": "k_StraDa",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw?"
+        }]
     },
-    "related_wms_layers": [
-      "5741"
-    ],
-    "epsg": "EPSG:4326",
-    "gfiTheme": "default",
-    "styleId": "18105",
-    "loadThingsOnlyInCurrentExtent": true,
-    "mouseHoverField": [
-      "dataStreamValue",
-      "layerName",
-      "description",
-      "dataStreamPhenomenonTime"
-    ],
-    "urlIsVisible": true
-  }
-]
+    {
+        "id": "luftbild2004:0",
+        "name": "Digitale farbige Orthophotos 2004 (DOP25RGB)",
+        "name_lang": "Digitale farbige Orthophotos 2004 (DOP25RGB)(Digitale farbige Orthophotos 2004 (DOP25RGB))",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/luftbild2004",
+        "typ": "WMS",
+        "layers": "0",
+        "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/luftbild2004?layerID=0",
+        "datasets": [{
+            "md_id": "22a3d06b-209a-33a3-be04-6407b2bd4f18",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/5fcb71f3-c68e-3b6c-b5fe-33436db16ec4",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "k_luftbild2007:0",
+        "name": "Digitale farbige Orthophotos 2007 (DOP20RGB)",
+        "name_lang": "Digitale farbige Orthophotos 2007 (DOP20RGB)(Digitale farbige Orthophotos 2007 (DOP20RGB))",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2007",
+        "typ": "WMS",
+        "layers": "0",
+        "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild2007?layerID=0",
+        "datasets": [{
+            "md_id": "d2078ad6-5664-3e1c-a320-dd858d9e54fd",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/06d554c7-09bb-35c3-9493-53ade0369c47",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "k_luftbild2009_20:0",
+        "name": "Digitale farbige Orthophotos 2009 (DOP20RGB)",
+        "name_lang": "Digitale farbige Orthophotos 2009 (DOP20RGB)(Digitale farbige Orthophotos 2009 (DOP20RGB))",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2009_20",
+        "typ": "WMS",
+        "layers": "0",
+        "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild2009_20?layerID=0",
+        "datasets": [{
+            "md_id": "3169852e-aedd-3a32-bca5-1034cbc9f5e4",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/536be580-576d-3245-a010-b39916822f72",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "k_luftbild2010_rgb:0",
+        "name": "Digitale farbige Orthophotos 2010 (DOP20RGB)",
+        "name_lang": "Digitale farbige Orthophotos 2010 (DOP20RGB)(Digitale farbige Orthophotos 2010 (DOP20RGB))",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2010_rgb",
+        "typ": "WMS",
+        "layers": "0",
+        "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild2010_rgb?layerID=0",
+        "datasets": [{
+            "md_id": "5661b5ed-8942-3451-b801-43ce0717e4ca",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/f06f69ae-46a1-3b61-9892-2e8f42f52564",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "k_luftbild2011_20:0",
+        "name": "Digitale farbige Orthophotos 2011 (DOP20RGB)",
+        "name_lang": "Digitale farbige Orthophotos 2011 (DOP20RGB)(Digitale farbige Orthophotos 2011 (DOP20RGB))",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2011_20",
+        "typ": "WMS",
+        "layers": "0",
+        "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild2011_20?layerID=0",
+        "datasets": [{
+            "md_id": "23229263-f3af-3b43-9710-55e9cf8f443d",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/f1a47301-edec-31c1-9c39-d572e28ad4fb",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "k_luftbild2014:0",
+        "name": "Digitale farbige Orthophotos 2014 (DOP20RGB)",
+        "name_lang": "Digitale farbige Orthophotos 2014 (DOP20RGB)(Digitale farbige Orthophotos 2014 (DOP20RGB))",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2014",
+        "typ": "WMS",
+        "layers": "0",
+        "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild2014?layerID=0",
+        "datasets": [{
+            "md_id": "794b7e02-4b1e-34ba-ae97-ca4dfb4c7b1c",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d1683f87-d577-3934-8d76-171c6cf9ed34",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "k_luftbild2015_rgb:0",
+        "name": "Luftbilder 2015 (Orthophotos)",
+        "name_lang": "Luftbilder 2015 (Orthophotos)(Digitale farbige Orthophotos 2015 (DOP20RGB))",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2015_rgb",
+        "typ": "WMS",
+        "layers": "0",
+        "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild2015_rgb?layerID=0",
+        "datasets": [{
+            "md_id": "6787eaec-ba58-3b5f-8444-3bf18b1b028e",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/48d464e2-56bb-3fe0-b7bc-f0100e70c1ac",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "k_luftbild2016_rgb:0",
+        "name": "Digitale farbige Orthophotos 2016 (DOP20RGB)",
+        "name_lang": "Digitale farbige Orthophotos 2016 (DOP20RGB)(Digitale farbige Orthophotos 2016 (DOP20RGB))",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2016_rgb",
+        "typ": "WMS",
+        "layers": "0",
+        "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild2016_rgb?layerID=0",
+        "datasets": [{
+            "md_id": "4b447a4e-a31c-3664-bfa2-5e198b492e5e",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/768430c2-8b3e-3b01-b4ee-8b33ed658282",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "k_luftbild2017_rgb:0",
+        "name": "Digitale farbige Orthophotos 2017 (DOP20RGB)",
+        "name_lang": "Digitale farbige Orthophotos 2017 (DOP20RGB)(Digitale farbige Orthophotos 2017 (DOP20RGB))",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2017_rgb",
+        "typ": "WMS",
+        "layers": "0",
+        "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild2017_rgb?layerID=0",
+        "datasets": [{
+            "md_id": "e98a56c9-c64a-3aba-808f-62f82cca9d1f",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/bbfa1d84-605e-3d5e-8acb-303cd58cc34a",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "k_luftbild2018_rgb:0",
+        "name": "Digitale farbige Orthophotos 2018 (DOP20RGB)",
+        "name_lang": "Digitale farbige Orthophotos 2018 (DOP20RGB)(Digitale farbige Orthophotos 2018 (DOP20RGB))",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2018_rgb",
+        "typ": "WMS",
+        "layers": "0",
+        "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild2018_rgb?layerID=0",
+        "datasets": [{
+            "md_id": "571d6f54-45d4-34db-a6db-f916e3579e60",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/9efcc42e-09f6-3d7c-8b23-5d98487ff00d",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "k_luftbild2019_rgb:0",
+        "name": "Digitale farbige Orthophotos 2019 (DOP20RGB)",
+        "name_lang": "Digitale farbige Orthophotos 2019 (DOP20RGB)(Digitale farbige Orthophotos 2019 (DOP20RGB))",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2019_rgb",
+        "typ": "WMS",
+        "layers": "0",
+        "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild2019_rgb?layerID=0",
+        "datasets": [{
+            "md_id": "21797ced-f0c0-311a-975e-eb364ee76953",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/2676bed6-175f-3f17-a3c3-51057db1f8ba",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "k_luftbild2020_rgb:0",
+        "name": "Digitale farbige Orthophotos 2020 (DOP20RGB)",
+        "name_lang": "Digitale farbige Orthophotos 2020 (DOP20RGB)(Digitale farbige Orthophotos 2020 (DOP20RGB))",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2020_rgb",
+        "typ": "WMS",
+        "layers": "0",
+        "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild2020_rgb?layerID=0",
+        "datasets": [{
+            "md_id": "afcc07ee-0a9d-39f1-b72b-fab7480e00d2",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/7f3ee07f-c3e5-3d91-9420-5e173aafd4ff",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "99truedop20rgb",
+        "name": "Digitale Color-Infrarot-TrueOrthophotos 2020 (TrueDOP20CIR) - Sommerbefliegung",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2020_true_rgb",
+        "typ": "WMS",
+        "layers": "0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "singleTile": false,
+        "transparent": true,
+        "transparency": 0,
+        "tilesize": "512",
+        "minScale": "0",
+        "maxScale": "2500000",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "layerAttribution": "Geoportal Berlin / Digitale farbige TrueOrthophotos 2020 - Sommerbefliegung",
+        "legendURL": "ignore",
+        "cache": true,
+        "featureCount": "1",
+        "datasets": [{
+            "md_id": "8b92e0db-a819-36d6-92da-5cd34f7b3cbb",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/7f3ee07f-c3e5-3d91-9420-5e173aafd4ff",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }]
+    },
+
+    {
+        "id": "k_luftbild2021_rgb:0",
+        "name": "Digitale farbige Orthophotos 2021 (DOP20RGBI)",
+        "name_lang": "Digitale farbige Orthophotos 2021 (DOP20RGBI)(Digitale farbige Orthophotos 2021 (DOP20RGBI))",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2021_rgb",
+        "typ": "WMS",
+        "layers": "0",
+        "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild2021_rgb?layerID=0",
+        "datasets": [{
+            "md_id": "0682e22d-cd98-3c13-b6fa-a91db67c780e",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/68064e68-7ff3-3593-a0fb-f0f6d7075668",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+
+ {
+        "id": "k_luftbild2022_true_rgbi:0",
+        "name": "Digitale farbige TrueOrthophotos 2022 (DOP20RGBI)",
+        "name_lang": "Digitale farbige TrueOrthophotos 2022 (DOP20RGBI) (Digitale farbige TrueOrthophotos 2022 (DOP20RGBI))",
+        "crs": "EPSG:25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2022_true_rgbi",
+        "typ": "WMS",
+        "layers": "0",
+        "legend": "https://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild2022_true_rgbi?layerID=0",
+        "datasets": [
+            {
+                "md_id": "bf885681-6daa-4ce7-8bc5-15fdba32f268",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/38140514-3995-3513-82e5-753bd246ae31",
+                "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+            }
+        ],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+
+
+    {
+        "id": "s_brw_2015",
+        "name": "Bodenrichtwerte 01.01.2015",
+        "crs": "urn:ogc:def:crs:EPSG:6.9:25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_brw_2015",
+        "typ": "WFS",        
+        "featureType": "fis:s_brw_2015",
+        "datasets": [
+            {
+                "md_id": "e16d9ad0-2811-3665-b554-5426b442e209",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/96b520ce-7996-3012-b657-5c676c37b22a",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "featureNS": "http://www.berlin.de/broker",
+        "gfiAttributes": {
+            "gemeinde": "Stadt",
+            "bezirk": "Bezirk",
+            "Anwert": "Sanierungs-/Entwicklungszusatz",    
+            "brw": "Bodenrichtwert",
+            "nutzung": "Nutzungsart",
+            "gfz": "GFZ",
+            "Verfahrensart": "Sanierungs-/Entwicklungsmaßnahme",    
+            "stichtag": "Stichtag",
+            "beitragszustand": "Beitragszustand",
+            "lumnum": "GFZ-Umrechnungskoeffizienten"
+        }
+    },
+    {
+        "id": "s_brw_2016",
+        "name": "Bodenrichtwerte 01.01.2016",
+        "crs": "urn:ogc:def:crs:EPSG:6.9:25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_brw_2016",
+        "typ": "WFS",     
+        "featureType": "fis:s_brw_2016",
+        "datasets": [
+            {
+                "md_id": "460a8256-516e-3fb1-9c42-aa5b26f7e9a2",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/51da261c-248b-336a-8344-587903f76874",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "featureNS": "http://www.berlin.de/broker",
+        "gfiAttributes": {
+            "gemeinde": "Stadt",
+            "bezirk": "Bezirk",
+            "Anwert": "Sanierungs-/Entwicklungszusatz",    
+            "brw": "Bodenrichtwert",
+            "nutzung": "Nutzungsart",
+            "gfz": "GFZ",
+            "Verfahrensart": "Sanierungs-/Entwicklungsmaßnahme",    
+            "stichtag": "Stichtag",
+            "beitragszustand": "Beitragszustand",
+            "lumnum": "GFZ-Umrechnungskoeffizienten"
+        }
+    },
+    {
+        "id": "s_brw_2017",
+        "name": "Bodenrichtwerte 01.01.2017",
+        "crs": "urn:ogc:def:crs:EPSG:6.9:25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_brw_2017",
+        "typ": "WFS",
+        "featureType": "fis:s_brw_2017",
+        "datasets": [
+            {
+                "md_id": "747d6271-0b82-357d-b0b4-aae64bebf505",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/3b574802-be4e-38e1-a465-b81770da1e34",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "featureNS": "http://www.berlin.de/broker",
+        "gfiAttributes": {
+            "gemeinde": "Stadt",
+            "bezirk": "Bezirk",
+            "Anwert": "Sanierungs-/Entwicklungszusatz",    
+            "brw": "Bodenrichtwert",
+            "nutzung": "Nutzungsart",
+            "gfz": "GFZ",
+            "Verfahrensart": "Sanierungs-/Entwicklungsmaßnahme",    
+            "stichtag": "Stichtag",
+            "beitragszustand": "Beitragszustand",
+            "lumnum": "GFZ-Umrechnungskoeffizienten"
+        }
+    },
+    {
+        "id": "s_brw_2018",
+        "name": "Bodenrichtwerte 01.01.2018",
+        "crs": "urn:ogc:def:crs:EPSG:6.9:25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_brw_2018",
+        "typ": "WFS",
+        "featureType": "fis:s_brw_2018",
+        "datasets": [
+            {
+                "md_id": "8a584aeb-ef99-3137-bb11-715e59b51686",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/02c8e23b-7771-34e8-a550-a49b69f0d5d9",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "featureNS": "http://www.berlin.de/broker",
+        "gfiAttributes": {
+            "gemeinde": "Stadt",
+            "bezirk": "Bezirk",
+            "Anwert": "Sanierungs-/Entwicklungszusatz",    
+            "brw": "Bodenrichtwert",
+            "nutzung": "Nutzungsart",
+            "gfz": "GFZ",
+            "Verfahrensart": "Sanierungs-/Entwicklungsmaßnahme",    
+            "stichtag": "Stichtag",
+            "beitragszustand": "Beitragszustand",
+            "lumnum": "GFZ-Umrechnungskoeffizienten"
+        }
+    },
+    {
+        "id": "s_brw_2019",
+        "name": "Bodenrichtwerte 01.01.2019",
+        "crs": "urn:ogc:def:crs:EPSG:6.9:25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_brw_2019",
+        "typ": "WFS",
+        "featureType": "fis:s_brw_2019",
+        "datasets": [
+            {
+                "md_id": "69ac5522-b775-3e77-bad1-a24d86c8e156",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/e00ba16e-5daa-378e-bd71-4a98ba28ed5d",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "featureNS": "http://www.berlin.de/broker",
+        "gfiAttributes": {
+            "gemeinde": "Stadt",
+            "bezirk": "Bezirk",
+            "Anwert": "Sanierungs-/Entwicklungszusatz",    
+            "brw": "Bodenrichtwert",
+            "nutzung": "Nutzungsart",
+            "gfz": "GFZ",
+            "Verfahrensart": "Sanierungs-/Entwicklungsmaßnahme",    
+            "stichtag": "Stichtag",
+            "beitragszustand": "Beitragszustand",
+            "lumnum": "GFZ-Umrechnungskoeffizienten"
+        }
+    },
+    {
+        "id": "s_brw_2020",
+        "name": "Bodenrichtwerte 01.01.2020",
+        "crs": "urn:ogc:def:crs:EPSG:6.9:25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_brw_2020",
+        "typ": "WFS",
+        "featureType": "fis:s_brw_2020",
+        "datasets": [
+            {
+                "md_id": "b6a568c2-8254-332a-bbc2-002a4ced82c1",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/122a383a-4615-3752-a0dc-b7030351df38",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "featureNS": "http://www.berlin.de/broker",
+        "gfiAttributes": {
+            "gemeinde": "Stadt",
+            "bezirk": "Bezirk",
+            "Anwert": "Sanierungs-/Entwicklungszusatz",    
+            "brw": "Bodenrichtwert",
+            "nutzung": "Nutzungsart",
+            "gfz": "GFZ",
+            "Verfahrensart": "Sanierungs-/Entwicklungsmaßnahme",    
+            "stichtag": "Stichtag",
+            "beitragszustand": "Beitragszustand",
+            "lumnum": "GFZ-Umrechnungskoeffizienten"
+        }
+    },
+    {
+        "id": "s_brw_2021",
+        "name": "Bodenrichtwerte 01.01.2021",
+        "crs": "urn:ogc:def:crs:EPSG:6.9:25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_brw_2021",
+        "typ": "WFS",
+        "featureType": "fis:s_brw_2021",
+        "datasets": [
+            {
+                "md_id": "d1a3c991-68af-32f0-9959-9da93eebdc14",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d80af355-6705-3438-bfba-936a970cb74b",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "featureNS": "http://www.berlin.de/broker",
+        "gfiAttributes": {
+            "gemeinde": "Stadt",
+            "bezirk": "Bezirk",
+            "Anwert": "Sanierungs-/Entwicklungszusatz",    
+            "brw": "Bodenrichtwert",
+            "nutzung": "Nutzungsart",
+            "gfz": "GFZ",
+            "Verfahrensart": "Sanierungs-/Entwicklungsmaßnahme",    
+            "stichtag": "Stichtag",
+            "beitragszustand": "Beitragszustand",
+            "lumnum": "GFZ-Umrechnungskoeffizienten"
+        }
+    },
+  {
+        "id": "brw_2021_amtlich:234",
+        "name": "Bodenrichtwerte",
+        "name_lang": "Bodenrichtwerte(Bodenrichtwerte 01.01.2021)",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/brw_2021_amtlich",
+        "typ": "WMS",
+        "layers": ["3", "2"],
+        "legend": "https://fbinter.stadt-berlin.de/fb_daten/legenden/brw/leg_brw2021.png",
+        "datasets": [
+            {
+                "md_id": "6e5bada5-8e80-33d0-bd53-472f1887ddba",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d80af355-6705-3438-bfba-936a970cb74b",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
+    },
+ {
+        "id": "brw_2020_amtlich:234",
+        "name": "Bodenrichtwerte",
+        "name_lang": "Bodenrichtwerte(Bodenrichtwerte 01.01.2020)",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/brw_2020_amtlich",
+        "typ": "WMS",
+        "layers": ["3", "2"],
+        "legend": "https://fbinter.stadt-berlin.de/fb_daten/legenden/brw/leg_brw2019.png",
+        "datasets": [
+            {
+                "md_id": "598c01c4-169a-30e8-8bb3-dc9a7e22631d",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/122a383a-4615-3752-a0dc-b7030351df38",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
+    },
+{
+        "id": "brw_2019_amtlich:234",
+        "name": "Bodenrichtwerte",
+        "name_lang": "Bodenrichtwerte(Bodenrichtwerte 01.01.2019)",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/brw_2019_amtlich",
+        "typ": "WMS",
+        "layers": ["3", "2"],
+        "legend": "https://fbinter.stadt-berlin.de/fb_daten/legenden/brw/leg_brw2019.png",
+        "datasets": [
+            {
+                "md_id": "725488dd-79c0-3e46-9d30-5c5530aff403",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/e00ba16e-5daa-378e-bd71-4a98ba28ed5d",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
+    },
+  {
+        "id": "brw_2018_amtlich:234",
+        "name": "Bodenrichtwerte",
+        "name_lang": "Bodenrichtwerte(Bodenrichtwerte 01.01.2018)",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/brw_2018_amtlich",
+        "typ": "WMS",
+        "layers": ["3", "2"],
+        "legend": "https://fbinter.stadt-berlin.de/fb_daten/legenden/brw/leg_brw2018.png",
+        "datasets": [
+            {
+                "md_id": "91f37905-42b9-3bcc-8bfc-770e30d249df",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/02c8e23b-7771-34e8-a550-a49b69f0d5d9",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
+    }, 
+ {
+        "id": "brw_2017_amtlich:234",
+        "name": "Bodenrichtwerte",
+        "name_lang": "Bodenrichtwerte(Bodenrichtwerte 01.01.2017)",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/brw_2017_amtlich",
+        "typ": "WMS",
+        "layers": ["3", "2"],
+        "legend": "https://fbinter.stadt-berlin.de/fb_daten/legenden/brw/leg_brw2017.png",
+        "datasets": [
+            {
+                "md_id": "3f0fd054-6182-318f-a16a-8292c1095e78",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/3b574802-be4e-38e1-a465-b81770da1e34",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
+    },
+  {
+        "id": "brw_2016_amtlich:234",
+        "name": "Bodenrichtwerte",
+        "name_lang": "Bodenrichtwerte(Bodenrichtwerte 01.01.2016)",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/brw_2016_amtlich",
+        "typ": "WMS",
+       "layers": ["3", "2"],
+        "legend": "https://fbinter.stadt-berlin.de/fb_daten/legenden/brw/leg_brw2016.png",
+        "datasets": [
+            {
+                "md_id": "b1627d8f-064b-3488-94b5-399390331765",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/51da261c-248b-336a-8344-587903f76874",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
+    },
+  {
+        "id": "brw_2015_amtlich:234",
+        "name": "Bodenrichtwerte",
+        "name_lang": "Bodenrichtwerte(Bodenrichtwerte 01.01.2015)",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/brw_2015_amtlich",
+        "typ": "WMS",
+        "layers": ["3", "2"],
+        "legend": "https://fbinter.stadt-berlin.de/fb_daten/legenden/brw/leg_brw2015.png",
+        "datasets": [
+            {
+                "md_id": "a1eada85-e644-30a6-8f37-41cd87eded2e",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/96b520ce-7996-3012-b657-5c676c37b22a",
+                "csw_url": "https://fbinter.stadt-berlin.de/fb/csw"
+            }
+        ],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "1",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "transparent": "True",
+        "tilesize": "512",
+        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
+    }]

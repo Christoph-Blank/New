@@ -1036,4 +1036,32 @@
         "transparent": "True",
         "tilesize": "512",
         "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
+    },
+  {
+    "id": "19173",
+   "name": "Digitales Geländemodell 2023 - Höhenlinien",
+        "name_lang": "Digitales Geländemodell 2023 - Höhenlinien (ATKIS® DGM - Digitales Geländemodell -)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/dgm1",
+        "typ": "WMS",
+        "gfiAttributes": "ignore",
+        "layers": "a_dgm1_hoehenlinien",
+        "legend": true,
+        "datasets": [
+            {
+                "md_name": "ATKIS® DGM - Digitales Geländemodell",
+                "md_id": "f0e8ff09-2887-3446-9c53-81dbc45af03c",
+                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/a98210d0-8e08-3112-89f9-44d945ba69b3",
+                "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+            }
+        ],
+        "maxScale": "50000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
     }]

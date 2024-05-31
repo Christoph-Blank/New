@@ -10,14 +10,14 @@
       "mapView": {
         "backgroundImage": "./resources/img/backgroundCanvas.jpeg",
         "startCenter": [
-          561210,
-          5932600
+          389437.73, 
+          5821509.84
         ],
         "extent": [
-          510000.0,
-          5850000.0,
-          625000.4,
-          6000000.0
+          384000.0, 
+          5817000.0, 
+          394000.0, 
+          5826000.0
         ],
         "startZoomLevel": 1
       }
@@ -176,30 +176,28 @@
             "type": "layerSlider",
             "layerIds": [
               {
-                "title": "common:modules.layerSlider.serviceOne",
-                "layerId": "19173"
+                "title": "Digitale farbige Orthophotos 2004 (DOP25RGB)",
+                "layerId": "luftbild2004:0"
               },
               {
-                "title": "common:modules.layerSlider.serviceTwo",
-                "layerId": "2426"
+                "title": "Digitale farbige Orthophotos 2007 (DOP20RGB)",
+                "layerId": "k_luftbild2007:0"
               },
               {
-                "title": "common:modules.layerSlider.serviceThree",
-                "layerId": "8712.2"
+                "title": "Digitale farbige Orthophotos 2009 (DOP20RGB)",
+                "layerId": "k_luftbild2009_20:0"
               },
               {
-                "title": "common:modules.layerSlider.serviceFour",
-                "layerId": "1711"
+                "title": "Digitale farbige Orthophotos 2010 (DOP20RGB)",
+                "layerId": "k_luftbild2010_rgb:0"
               }
             ]
           },
           {
             "type": "layerClusterToggler",
             "layerIdList": [
-              "8712.1",
-              "8712.2",
-              "8712.3",
-              "8712.4"
+              "luftbild2004:0",
+              "k_luftbild2007:0"
             ]
           }
         ]
@@ -210,29 +208,16 @@
     "baselayer": {
       "elements": [
         {
-          "id": "453",
-          "visibility": true
+          "id": "Basemap-farbe",
+          "name": "Basemap (Farbausgabe)",
+          "typ": "WMS",
+          "visibility": true,
+          "showInLayerTree": true
         },
         {
-          "id": "452"
-        },
-        {
-          "id": [
-            "717",
-            "718",
-            "719",
-            "720",
-            "13712",
-            "13709",
-            "13714",
-            "13716"
-          ],
-          "name": "Geobasiskarten (farbig)"
-        },
-        {
-          "id": "topplus_wmts",
-          "name": "TopPlusOpen (WMTS)",
-          "typ": "WMTS",
+          "id": "Basemap-sw",
+          "name": "Basemap (SW-Ausgabe)",
+          "typ": "WMS",
           "visibility": false,
           "showInLayerTree": true
         }
@@ -241,142 +226,10 @@
     "subjectlayer": {
       "elements": [
         {
-          "id": "lgvline",
-          "name": "wfst_linie_test",
+          "id": "990006",
+          "name": "Berlin-Zoom (SW-Ausgabe)",
           "visibility": false,
-          "typ": "WFS"
-        },
-        {
-          "id": "lgvpoint",
-          "name": "wfst_punkt_test",
-          "visibility": false,
-          "typ": "WFS"
-        },
-        {
-          "id": "lgvpolygon",
-          "name": "wfst_polygon_test",
-          "visibility": false,
-          "typ": "WFS"
-        },
-        {
-          "id": "2426",
-          "name": "WMS Bezirke",
-          "layerAttribution": "<span>Hier Text angeben, der angezeigt wird sobald der Layer sichtbar ist.</span>"
-        },
-        {
-          "id": "4561",
-          "name": "WMS Eventflächen",
-          "maxScale": "100000",
-          "minScale": "40000"
-        },
-        {
-          "id": "3302",
-          "name": "WMS Trinkwasser"
-        },
-        {
-          "id": "2003",
-          "name": "WFS Schutzgebiete",
-          "styleId": "2003",
-          "mouseHoverField": "gebietsname"
-        },
-        {
-          "id": "10882",
-          "name": "WFS Bike and Ride Parkplätze",
-          "styleId": "10882",
-          "clusterDistance": 40,
-          "styleGeometryType": [
-            "Point"
-          ]
-        },
-        {
-          "id": "1711",
-          "name": "WFS Krankenhäuser",
-          "styleId": "1711",
-          "mouseHoverField": "name",
-          "searchField": "name"
-        },
-        {
-          "id": "8712",
-          "name": "WFS Schulen",
-          "styleId": "8712",
-          "mouseHoverField": [
-            "schulname",
-            "kapitelbezeichnung"
-          ],
-          "searchField": [
-            "schulname",
-            "fremdsprache"
-          ]
-        },
-        {
-          "id": "4560",
-          "name": "WFS Polygon (Default Style)"
-        },
-        {
-          "id": "1132",
-          "name": "WFS Point (Default Style)"
-        },
-        {
-          "id": "1133",
-          "name": "WFS Line (Default Style)"
-        },
-        {
-          "id": "18105",
-          "name": "STA Anzahl frei verfügbarer Fahrräder je StadtRad-Station"
-        },
-        {
-          "id": "8712.1",
-          "styleId": "8712.1",
-          "name": "Grundschulen",
-          "wfsFilter": "resources/xml/schulstandort.staatlich.5.grundschulen.xml",
-          "typ": "WFS",
-          "visibility": false,
-          "clusterDistance": 60,
-          "mouseHoverField": [
-            "schulname",
-            "kapitelbezeichnung"
-          ],
-          "showInLayerTree": true
-        },
-        {
-          "id": "8712.2",
-          "styleId": "8712.2",
-          "name": "Stadtteilschulen",
-          "wfsFilter": "resources/xml/schulstandort.staatlich.5.stadtteilschulen.xml",
-          "typ": "WFS",
-          "visibility": false,
-          "clusterDistance": 60,
-          "mouseHoverField": [
-            "schulname",
-            "kapitelbezeichnung"
-          ],
-          "showInLayerTree": true
-        },
-        {
-          "id": "8712.3",
-          "styleId": "8712.3",
-          "name": "Gymnasien",
-          "wfsFilter": "resources/xml/schulstandort.staatlich.5.gymnasien.xml",
-          "typ": "WFS",
-          "visibility": false,
-          "clusterDistance": 60,
-          "mouseHoverField": [
-            "schulname",
-            "kapitelbezeichnung"
-          ]
-        },
-        {
-          "id": "8712.4",
-          "styleId": "8712.4",
-          "name": "Sonderschulen",
-          "wfsFilter": "resources/xml/schulstandort.staatlich.5.sonderschulen.xml",
-          "typ": "WFS",
-          "visibility": false,
-          "clusterDistance": 60,
-          "mouseHoverField": [
-            "schulname",
-            "kapitelbezeichnung"
-          ]
+          "typ": "WMS"
         }
       ]
     }

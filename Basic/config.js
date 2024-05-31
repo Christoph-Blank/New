@@ -4,7 +4,8 @@ const Config = {
         fetchBroadcastUrl: "./resources/newsFeedPortalAlerts.json"
     },
     namedProjections: [
-        ["EPSG:25832", "+title=ETRS89/UTM 32N +proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"]
+        ["EPSG:25833", "+title=ETRS89/UTM 33N +proj=utm +zone=33 +ellps=WGS84 +towgs84=0,0,0,0,0,0,1 +units=m +no_defs"],      
+        ["EPSG:3068", "+title=Soldner Berlin +proj=cass +lat_0=52.41864827777778 +lon_0=13.62720366666667 +x_0=40000 +y_0=10000 +ellps=bessel +datum=potsdam +units=m +no_defs"]
     ],
     layerConf: "./resources/services-internet.json",
     restConf: "./resources/rest-services-internet.json",

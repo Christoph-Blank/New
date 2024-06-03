@@ -196,7 +196,7 @@
           },
           {
     "type": "routing",
-    "name": "test",
+    "name": "Routing (ohne funktion)",
     "icon": "bi-signpost-2-fill",
     "activeRoutingToolOption": "DIRECTIONS",
     "routingToolOptions": ["DIRECTIONS", "ISOCHRONES"],

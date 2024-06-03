@@ -27,7 +27,8 @@
           810500.0, 
           5842500.0
         ],
-        "startZoomLevel": 8
+        "startZoomLevel": 8,
+        "epsg": "EPSG:25833"
       }
     },
     "portalFooter": {

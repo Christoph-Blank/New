@@ -42,9 +42,8 @@
       ]
     },
     "tree": {
-      "showFolderPath":{ 
-        "active": true
-      },   
+      "showFolderPath": true,
+      "singleBaselayer": true,
         
       "addLayerButton": {
         "active": false,

@@ -65,9 +65,9 @@
             "serviceId": "11",
             "limit": 10,
             "lang": "de",
-            "lat": 53.6,
-            "lon": 10.0,
-            "bbox": "9.6,53.3,10.4,53.8"
+            "lat": 52.6,
+            "lon": 13.5,
+            "bbox": "13.6,52.5,13.3,52.7"
           },
           {
             "type": "visibleVector",

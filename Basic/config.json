@@ -188,6 +188,7 @@
           {
             "type": "layerSlider",
             "name": "Luftbilder",
+            "title": "Zeitreise durch die Luftbilder",
             "layerIds": [
               {
                 "title": "Digitale farbige Orthophotos 2004 (DOP25RGB)",

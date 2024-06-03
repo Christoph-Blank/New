@@ -18,14 +18,14 @@
       "mapView": {
         "backgroundImage": "./resources/img/backgroundCanvas.jpeg",
         "startCenter": [
-          801728, 
-          5830065
+          394914, 
+          5821900
         ],
         "extent": [
-          796100, 
-          5828500, 
-          810500.0, 
-          5842500.0
+          389000, 
+          5821000, 
+          402500, 
+          5835000
         ],
         "startZoomLevel": 8,
         "epsg": "EPSG:25833"

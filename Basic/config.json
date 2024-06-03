@@ -80,7 +80,7 @@
           },
           {
             "type": "bkg",
-            "geoSearchServiceId": "5",
+            "geoSearchServiceId": "BKG_GEO",
             "extent": [
                 389000, 
                 5821000, 

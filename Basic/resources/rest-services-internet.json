@@ -6,13 +6,13 @@
     "typ": "WFS"
   },
   {
-    "id": "4",
+    "id": "BKG_SUG",
     "name": "BKG Geokodierungsdienst Suggest",
     "url": "https://gdi.berlin.de/searches/bkg/suggest",
     "typ": "GDZ"
   },
   {
-    "id": "5",
+    "id": "BKG_GEO",
     "name": "BKG Geokodierungsdienst Geosearch",
     "url": "https://gdi.berlin.de/searches/bkg/geosearch",
     "typ": "GDZ"

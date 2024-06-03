@@ -79,6 +79,7 @@
             "bbox": "13.6,52.5,13.3,52.7"
           },
           {
+            "type": "bkg",
             "geoSearchServiceId": "5",
             "extent": [
                 389000, 
@@ -88,8 +89,9 @@
                       ],
             "resultCount": 10,
             "epsg": "EPSG:25833",
-            "minScore": 0.6,
-            "type": "bkg"
+            "filter": "filter=bundesland:Berlin",
+            "minScore": 0.6
+            
           },
           {
             "type": "visibleVector",

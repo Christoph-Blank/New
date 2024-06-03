@@ -11,6 +11,10 @@
           "zoomMode": "once"
         }
       },
+      "layerPills": {
+        "active": true,
+        "mobileOnly": false
+          },
       "mapView": {
         "backgroundImage": "./resources/img/backgroundCanvas.jpeg",
         "startCenter": [

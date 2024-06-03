@@ -10,8 +10,8 @@
       "mapView": {
         "backgroundImage": "./resources/img/backgroundCanvas.jpeg",
         "startCenter": [
-          801430, 
-          5830225
+          801558, 
+          5830025
         ],
         "extent": [
           796100, 
@@ -19,7 +19,7 @@
           810500.0, 
           5842500.0
         ],
-        "startZoomLevel": 6
+        "startZoomLevel": 7
       }
     },
     "portalFooter": {

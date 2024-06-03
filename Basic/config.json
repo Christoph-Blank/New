@@ -198,8 +198,8 @@
     "type": "routing",
     "name": "test",
     "icon": "bi-signpost-2-fill",
-    "activeRoutingToolOption": "DIRECTONS",
-    "routingToolOptions": ["DIRECTONS", "ISOCHRONES"],
+    "activeRoutingToolOption": "DIRECTIONS",
+    "routingToolOptions": ["DIRECTIONS", "ISOCHRONES"],
     "download": {
         "filename": "",
         "format": "GEOJSON"

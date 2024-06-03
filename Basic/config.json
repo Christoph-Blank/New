@@ -2,9 +2,9 @@
   "portalConfig": {    
     "map": {
       "baselayerSwitcher": {
-      "active": true,
-      "activatedExpandable": false
-      },
+          "active": true,
+          "activatedExpandable": true
+          },
       "controls": {
         "zoom": true,
         "orientation": {

@@ -69,6 +69,18 @@
             "lon": 13.5,
             "bbox": "13.6,52.5,13.3,52.7"
           },
+          { 
+            "type": "bkg",
+            "minChars": 3,
+            "suggestServiceId": "4",
+            "geosearchServiceId": "5",
+            "extent": [384000.0, 5817000.0, 394000.0, 5826000.0],
+            "suggestCount": 10,
+            "epsg": "EPSG:25833",
+            "filter": "filter=(ort:Mitte, Moabit, Hansaviertel, Gesundbrunnen, Wedding, Tiergarten)",
+            "zoomToResult": true,
+            "score": 0.6
+          },
           {
             "type": "visibleVector",
             "resultEvents": {

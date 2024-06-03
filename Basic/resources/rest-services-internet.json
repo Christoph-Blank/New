@@ -16,5 +16,17 @@
     "name": "BKG Geokodierungsdienst Geosearch",
     "url": "https://gdi.berlin.de/searches/bkg/geosearch",
     "typ": "GDZ"
-  }
+  },
+  {
+	"id": "mapfish_printservice_id",	 
+	"name": "Mapfish Print Service",
+	"url" : "https://gdi.berlin.de/services/printing/",
+	"typ" : "PrintService"
+  },
+  {
+	"id": "bkg_ors",	 
+	"name": "BKG Routing Service",
+	"url" : "https://sg.geodatenzentrum.de/web_ors",
+	"typ" : "RoutingService"
+	 }
 ]

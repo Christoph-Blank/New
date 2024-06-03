@@ -4,5 +4,17 @@
     "name": "Komoot Photon Suche",
     "url": "https://photon.komoot.io/api/?",
     "typ": "WFS"
+  },
+  {
+    "id": "4",
+    "name": "BKG Geokodierungsdienst Suggest",
+    "url": "https://gdi.berlin.de/searches/bkg/suggest",
+    "typ": "GDZ"
+  },
+  {
+    "id": "5",
+    "name": "BKG Geokodierungsdienst Geosearch",
+    "url": "https://gdi.berlin.de/searches/bkg/geosearch",
+    "typ": "GDZ"
   }
 ]

@@ -45,9 +45,8 @@
       "showFolderPath": {
         "active": true
       },
-      "singleBaselayer":  {
-        "active": true
-      },
+      "singleBaselayer": "true",
+      
         
       "addLayerButton": {
         "active": false,

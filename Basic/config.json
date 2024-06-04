@@ -60,9 +60,9 @@
     },
     "mainMenu": {
       
-      "expanded": false,
+      "expanded": true,
       "title": {
-        "text": "Basic",
+        "text": "Test",
         "logo": "./resources/img/mp_logo.png",
         "link": "https://masterportal.org",
         "toolTip": "Masterportal"
@@ -127,6 +127,11 @@
             "type": "news"
           },
           {
+            "type": "language"
+          }
+        ],
+	[
+         {
             "type": "contact",
             "serviceId": "80001",
             "includeSystemInfo": true,
@@ -143,12 +148,7 @@
               }
             ]
           }
-        ],
-	[
-         
-          {
-            "type": "language"
-          }
+          
         ]
       ]
     },

@@ -418,12 +418,8 @@
 	    {
                 "id": "test01",
                 "name": "Test",
-                "visibility": false,
-		"styleId": "10882",
-                "clusterDistance": 40,
-               "styleGeometryType": [
-                   "Point"
-           		],
+		"styleId": "1711",
+                "visibility": false,               
                 "type": "layer",
                 "typ": "GeoJson"
            }

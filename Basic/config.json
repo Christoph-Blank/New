@@ -370,7 +370,7 @@
             {                
                 "titel": "Luftbilder",
                 "visibility": true,
-                "type": "ordner",
+                "type": "folder",
                 "elements": [
                     {
                       "id": "luftbild2004:0",

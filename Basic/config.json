@@ -376,25 +376,25 @@
                       "id": "luftbild2004:0",
                       "name": "Digitale farbige Orthophotos 2004 (DOP25RGB)",
                       "visibility": false,
-                      "typ": "WMS"
+                      "typ": "layer"
                     },
                     {
                       "id": "k_luftbild2007:0",
                       "name": "Digitale farbige Orthophotos 2007 (DOP25RGB)",
                       "visibility": false,
-                      "typ": "WMS"
+                      "typ": "layer"
                     },
                     {
                       "id": "k_luftbild2009_20:0",
                       "name": "Digitale farbige Orthophotos 2009 (DOP25RGB)",
                       "visibility": false,
-                      "typ": "WMS"
+                      "typ": "layer"
                     },
                     {
                       "id": "k_luftbild2010_rgb:0",
                       "name": "Digitale farbige Orthophotos 2010 (DOP25RGB)",
                       "visibility": false,
-                      "typ": "WMS"
+                      "typ": "layer"
                     }
                 ]
             }

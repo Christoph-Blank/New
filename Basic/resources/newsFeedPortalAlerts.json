@@ -48,7 +48,7 @@
       "displayClass": "info",
       "category": "Portal zur Abnahme!",
       "content": "Dieses Geoportal dient der Qualitätskontrolle durch den Kunden.<br>Es ist aufgrund von möglichen Fehlern <b>nicht</b> zur Nutzung für alltägliche oder berufliche Aufgaben geeignet!<br><br>",
-	    "mustBeConfirmed": true,
+	    "mustBeConfirmed": false,
       "once": false
     },
     "failing-service": {

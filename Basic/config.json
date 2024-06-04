@@ -134,7 +134,8 @@
          {
             "type": "contact",
             "serviceId": "80001",
-            "includeSystemInfo": true,
+            "name": "common:menu.contact",
+    	    "icon": "bi-envelope",
             "from": [
               {
                 "email": "lgvgeoportal-hilfe@gv.hamburg.de",
@@ -147,11 +148,11 @@
                 "name": "LGVGeoportalHilfe"
               }
             ],		
-		"fileUpload": true,
-    		"includeSystemInfo": true,
-    		"closeAfterSend": true,
-    		"deleteAfterSend": true,
-    		"withTicketNo": false
+	    "fileUpload": true,
+    	    "includeSystemInfo": true,
+    	    "closeAfterSend": true,
+    	    "deleteAfterSend": true,
+    	    "withTicketNo": false
           }
           
         ]

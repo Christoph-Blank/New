@@ -145,9 +145,8 @@
           }
         ]
       ]
-    },
-    {
-      "sections": [
+        
+    "sections": [
         [        
           {
             "type": "language"

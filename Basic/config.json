@@ -367,9 +367,8 @@
     },
     "subjectlayer": {
       "elements": [
-            {
-                "id": "Luft",
-                "name": "Luftbilder",
+            {                
+                "titel": "Luftbilder",
                 "visibility": true,
                 "type": "folder",
                 "elements": [

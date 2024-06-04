@@ -146,7 +146,12 @@
                 "email": "lgvgeoportal-hilfe@gv.hamburg.de",
                 "name": "LGVGeoportalHilfe"
               }
-            ]
+            ],		
+		"fileUpload": true,
+    		"includeSystemInfo": true,
+    		"closeAfterSend": true,
+    		"deleteAfterSend": true,
+    		"withTicketNo": false
           }
           
         ]

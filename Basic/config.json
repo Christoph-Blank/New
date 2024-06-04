@@ -133,8 +133,7 @@
 	[
          {
             "type": "contact",
-            "serviceId": "80001",
-            "name": "common:menu.contact",
+            "serviceId": "80001",            
     	    "icon": "bi-envelope",
             "from": [
               {

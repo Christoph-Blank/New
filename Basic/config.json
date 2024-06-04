@@ -414,7 +414,14 @@
                       "typ": "wms"
                     }
                 ]
-            }
+            },
+	    {
+                "id": "test01",
+                "name": "Test",
+                "visibility": false,
+                "type": "layer",
+                "typ": "GeoJson"
+           }
         ]
      
     }

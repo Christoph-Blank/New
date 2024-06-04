@@ -419,6 +419,7 @@
                 "id": "test01",
                 "name": "Test",
                 "visibility": false,
+		"styleId": "1711"
                 "type": "layer",
                 "typ": "GeoJson"
            }

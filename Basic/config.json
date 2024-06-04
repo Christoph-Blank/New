@@ -370,8 +370,9 @@
             {
                 "id": "Luft",
                 "name": "Luftbilder",
+                "visibility": true,
                 "type": "folder",
-                "children": [
+                "elements": [
                     {
                       "id": "luftbild2004:0",
                       "name": "Digitale farbige Orthophotos 2004 (DOP25RGB)",

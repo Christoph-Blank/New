@@ -1,7 +1,10 @@
 {
   "portalConfig": {    
     "map": {
-      
+      "baselayerSwitcher": {
+          "active": true,
+          "activatedExpandable": true
+          },
       "controls": {
         "zoom": true,
         "orientation": {
@@ -39,14 +42,11 @@
       ]
     },
     "tree": {
-      "baselayerSwitcher": {
-          "active": true,
-          "activatedExpandable": true
-          },
+      
       "showFolderPath": {
         "active": true
       },
-      "singleBaselayer": "true",
+      
       
         
       "addLayerButton": {
@@ -62,6 +62,7 @@
       }
     },
     "mainMenu": {
+      "singleBaselayer": "true",
       "expanded": true,
       "title": {
         "text": "Basic",

@@ -1136,7 +1136,23 @@
       "name" : "test",
       "url" : "resources/geojson/test.geojson",
       "typ" : "GeoJSON",
-      "gfiAttributes" : "showAll",
+      "gfiAttributes": {
+      	"Vorschau": {
+         "name": "Vorschau",
+         "type": "html",
+         "html": {
+          	"tag": "iframe",
+          	"properties": {
+            		"src": "%value%",
+            		"width": "250px",
+            		"height": "250px",
+            		"frameborder": "0",
+            		"allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+            		"allowfullscreen": true
+          		}
+        	}
+      }
+   },
       "layerAttribution" : "nicht vorhanden",
       "legendURL" : "",
       "gfiTheme": "default"

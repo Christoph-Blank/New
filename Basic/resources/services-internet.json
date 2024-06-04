@@ -1134,7 +1134,7 @@
  {
       "id" : "test01",
       "name" : "test",
-      "url" : "geojson/test.json",
+      "url" : "resources/geojson/test.json",
       "typ" : "GeoJSON",
       "gfiAttributes" : "showAll",
       "layerAttribution" : "nicht vorhanden",

@@ -422,7 +422,15 @@
                 "visibility": false,               
                 "type": "layer",
                 "typ": "GeoJson"
+           },
+	   {
+                "id": "s_apotheken",
+		"styleId": "1711",
+                "visibility": false,               
+                "type": "layer",
+                "typ": "WFS"
            }
+	      
         ]
      
     }

@@ -147,7 +147,7 @@
                 "name": "LGVGeoportalHilfe"
               }
             ],
-	    "privacyPolicyLink": true,
+	    "privacyPolicyLink": "https://www.masterportal.org/datenschutz.html",
 	    "showPrivacyPolicy": true,
 	    "fileUpload": true,
     	    "includeSystemInfo": true,

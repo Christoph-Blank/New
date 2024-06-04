@@ -109,7 +109,7 @@
           },
           {
             "type": "topicTree",
-            "hitTemplate": "layer"
+            "hitTemplate": "default"
           }
         ]
       },

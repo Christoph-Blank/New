@@ -1,5 +1,5 @@
 {
-  "globalAlerts": ["wartungsarbeiten"],
+  "globalAlerts": ["wartungsarbeiten", "fhh-atlas-ie11"],
 
   "restrictedAlerts": {
     "https://geofos.fhhnet.stadt.hamburg.de/atlas-innere-sicherheit-mp/": ["news-ais"],
@@ -48,7 +48,7 @@
       "displayClass": "info",
       "category": "Portal zur Abnahme!",
       "content": "Dieses Geoportal dient der Qualitätskontrolle durch den Kunden.<br>Es ist aufgrund von möglichen Fehlern <b>nicht</b> zur Nutzung für alltägliche oder berufliche Aufgaben geeignet!<br><br>",
-	    "mustBeConfirmed": false,
+	    "mustBeConfirmed": true,
       "once": false
     },
     "failing-service": {
@@ -56,7 +56,7 @@
       "category": "Info zum Thema Starkregengefahrenkarte",
       "content": "Es kommt zurzeit zu Problemen bei der Darstellung der Starkregengefahrenkarte. An der Behebung des Problems wird gearbeitet",
       "displayFrom": "2021-07-20 08:00",
-      "displayUntil": "2021-07-20 23:00",
+      "displayUntil": "2025-07-20 23:00",
       "mustBeConfirmed": true,
       "once": true
     },
@@ -114,7 +114,7 @@
       "category": "Aktuelle Informationen",
       "content": "Liebe Nutzer,<br><br>es kann seit einiger Zeit zu Problemen im FHH-Atlas bei Benutzung des Internet-Explorers kommen.<br>Bitte nutzen sie künftig den Edge oder andere aktuelle Browser.<br><br>Ihr Team<br>LGV Geodatenanwendungen",
       "displayFrom": "2022-01-19 05:00",
-      "displayUntil": "2022-02-19 23:59",
+      "displayUntil": "2025-02-19 23:59",
       "mustBeConfirmed": true,
       "once": true
     },

@@ -41,14 +41,11 @@
         }
       ]
     },
-    "tree": {
-      
+    "tree": {      
       "showFolderPath": {
         "active": true
       },
-      
-      
-        
+      "singleBaselayer": "true",        
       "addLayerButton": {
         "active": false,
         "searchBar": {
@@ -62,7 +59,7 @@
       }
     },
     "mainMenu": {
-      "singleBaselayer": "true",
+      
       "expanded": true,
       "title": {
         "text": "Basic",
@@ -183,6 +180,11 @@
           },
           {
             "type": "legend"
+          },
+          {
+            "icon": "bi-newspaper",
+            "name": "common:modules.news.name",
+            "type": "news"
           },
           {       
             "type": "print",                        

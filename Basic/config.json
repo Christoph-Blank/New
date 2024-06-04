@@ -121,6 +121,11 @@
           {
             "type": "openConfig"
           },
+		  {
+            "icon": "bi-newspaper",
+            "name": "common:modules.news.name",
+            "type": "news"
+          },
           {
             "type": "contact",
             "serviceId": "80001",
@@ -137,23 +142,14 @@
                 "name": "LGVGeoportalHilfe"
               }
             ]
-          },
-          {
-            "icon": "bi-newspaper",
-            "name": "common:modules.news.name",
-            "type": "news"
           }
         ]
-      ]
-        
-    "sections": [
         [        
           {
             "type": "language"
           }
         ]
       ]
-    
     },
     "secondaryMenu": {
       "expanded": false,

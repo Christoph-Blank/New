@@ -1154,6 +1154,7 @@
       "name" : "test",
       "url" : "resources/geojson/test.geojson",
       "typ" : "GeoJSON",
+      "styleId": "1711",
       "gfiAttributes": {
       	"Vorschau": {
          "name": "Vorschau",

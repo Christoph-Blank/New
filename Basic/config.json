@@ -122,21 +122,9 @@
             "type": "openConfig"
           },
           {
-            "type": "contact",
-            "serviceId": "80001",
-            "includeSystemInfo": true,
-            "from": [
-              {
-                "email": "lgvgeoportal-hilfe@gv.hamburg.de",
-                "name": "LGVGeoportalHilfe"
-              }
-            ],
-            "to": [
-              {
-                "email": "lgvgeoportal-hilfe@gv.hamburg.de",
-                "name": "LGVGeoportalHilfe"
-              }
-            ]
+            "icon": "bi-newspaper",
+            "name": "common:modules.news.name",
+            "type": "news"
           },
           {
             "type": "language"
@@ -180,12 +168,7 @@
           },
           {
             "type": "legend"
-          },
-          {
-            "icon": "bi-newspaper",
-            "name": "common:modules.news.name",
-            "type": "news"
-          },
+          },          
           {       
             "type": "print",                        
             "name": "Karte drucken",                        

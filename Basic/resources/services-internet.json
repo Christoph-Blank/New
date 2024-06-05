@@ -1171,12 +1171,7 @@
           		}
         	}
       },
-	"timestamp": {
-         "name": "Aufnahmedatum",
-         "condition": "contains",
-         "type": "date",
-         "format": "DD.MM.YY"
-      }
+	"timestamp": "Aufnahmedatum"
 	
    },
       "layerAttribution" : "nicht vorhanden",

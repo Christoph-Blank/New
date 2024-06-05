@@ -417,8 +417,8 @@
           "showInLayerTree": true
         },
         {
-          "id": "luftbild2023:0",
-          "name": "Digitale farbige Orthophotos 2023 (DOP25RGB)",
+          "id": "truedop_2023:truedop_2023",
+          "name": "Digitale farbige TrueOrthophotos 2023 (DOP20RGBI)",
           "typ": "WMS",
           "visibility": false,
           "showInLayerTree": true

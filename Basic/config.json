@@ -26,10 +26,6 @@
         ],
         "startZoomLevel": 8,
         "epsg": "EPSG:25833"
-      },
-      "baselayerSwitcher": {
-          "active": true,
-          "activatedExpandable": true
       }
     },
     "portalFooter": {
@@ -61,6 +57,10 @@
     },
     "mainMenu": {
       
+      "baselayerSwitcher": {
+          "active": true,
+          "activatedExpandable": true
+      },
       "expanded": true,
       "title": {
         "text": "Test",

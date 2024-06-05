@@ -22,7 +22,7 @@
     				],
     			"secondaryMenu": [
         			{
-            			"type": "myModule"
+            			"type": "scaleSwitcher"
         			}
     				]
 			}

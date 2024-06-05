@@ -147,7 +147,7 @@
           },
           {
             "type": "language"
-          }
+          },
 	{
     	"type": "customMenuElement",
     	"name": "HTML aus config.json und Action",

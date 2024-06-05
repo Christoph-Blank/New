@@ -1,9 +1,5 @@
 {
-  "portalConfig": { 
-    "baselayerSwitcher": {
-          "active": true,
-          "activatedExpandable": true
-      },
+  "portalConfig": {     
     "treeType": "custom",
     "map": {      
       "controls": {
@@ -30,6 +26,10 @@
         ],
         "startZoomLevel": 8,
         "epsg": "EPSG:25833"
+      },
+      "baselayerSwitcher": {
+          "active": true,
+          "activatedExpandable": false
       }
     },
     "portalFooter": {

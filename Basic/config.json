@@ -14,18 +14,19 @@
 		"rotation": true,
 		"tiltView": true,
 		"totalView": true,
-		"startModule": 
-		"mainMenu": [
-        		{
-            		"type": "scaleSwitcher"
-        		}
-    			],
-    		"secondaryMenu": [
-        		{
-            		"type": "myModule"
-        		}
-    			]		
-      }
+		"startModule":{ 
+			"mainMenu": [
+        			{
+            			"type": "scaleSwitcher"
+        			}
+    				],
+    			"secondaryMenu": [
+        			{
+            			"type": "myModule"
+        			}
+    				]
+			}
+      		}
       },
       "layerPills": {
         "active": true,

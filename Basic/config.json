@@ -394,7 +394,7 @@
           "id": "Basemap-farbe",
           "name": "Basemap (Farb-Ausgabe)",
           "typ": "WMS",
-           "visibility": false,
+           "visibility": true,
           "showInLayerTree": true
         },
         {

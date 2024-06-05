@@ -1,5 +1,9 @@
 {
   "portalConfig": { 
+    "baselayerSwitcher": {
+          "active": true,
+          "activatedExpandable": true
+      },
     "treeType": "custom",
     "map": {      
       "controls": {
@@ -55,12 +59,7 @@
         "active": true
       }
     },
-    "mainMenu": {
-      
-      "baselayerSwitcher": {
-          "active": true,
-          "activatedExpandable": true
-      },
+    "mainMenu": {        
       "expanded": true,
       "title": {
         "text": "Test",

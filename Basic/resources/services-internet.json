@@ -1190,7 +1190,9 @@
         "url": "https://gdi.berlin.de/services/wmts/k5_farbe",
         "capabilitiesUrl": "https://gdi.berlin.de/services/wmts/k5_farbe?request=getcapabilities&service=WMTS&version=1.0.0",
         "typ": "WMTS",
+	"format" : "image/png",
         "layers": "k5_farbe",
+        "tileMatrixSet": "GDIBE:25833",
         "datasets": [
             {
                 "md_id": "ed9d0b87-ab8b-3db0-9bf3-7f9218cc004a",
@@ -1198,6 +1200,7 @@
                 "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
             }
         ],
+        "optionsFromCapabilities": true,
         "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\""
     },
     {
@@ -1207,14 +1210,17 @@
         "url": "https://gdi.berlin.de/services/wmts/k5_sw",
         "capabilitiesUrl": "https://gdi.berlin.de/services/wmts/k5_sw?request=getcapabilities&service=WMTS&version=1.0.0",
         "typ": "WMTS",
+	"format" : "image/png",
         "layers": "k5_sw",
+        "tileMatrixSet": "GDIBE:25833",
         "datasets": [
             {
                 "md_id": "ed9d0b87-ab8b-3db0-9bf3-7f9218cc004a",
                 "rs_id": "https://registry.gdi-de.org/id/de.be.csw/08f2353b-b31f-3c48-abe7-bff6594d61c7",
                 "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
             }
-        ],        
+        ],
+        "optionsFromCapabilities": true,
         "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\""
     }
 ]

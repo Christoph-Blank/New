@@ -1,5 +1,6 @@
 {
-  "portalConfig": {    
+  "portalConfig": { 
+    "treeType": "custom",
     "map": {
       "baselayerSwitcher": {
           "active": true,

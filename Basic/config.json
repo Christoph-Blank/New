@@ -27,10 +27,7 @@
         "startZoomLevel": 8,
         "epsg": "EPSG:25833"
       },
-      "baselayerSwitcher": {
-          "active": true,
-          "activatedExpandable": false
-      }
+      "baselayerSwitcher": {}
     },
     "portalFooter": {
       "urls": [

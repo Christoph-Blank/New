@@ -1,6 +1,5 @@
 {
-  "portalConfig": {     
-    "treeType": "custom",
+  "portalConfig": {    
     "map": {      
       "controls": {
         "zoom": true,
@@ -66,11 +65,7 @@
         }
       ]
     },
-    "tree": {      
-      "showFolderPath": {
-        "active": true
-      },
-      "singleBaselayer": "true",        
+    "tree": {            
       "addLayerButton": {
         "active": false,
         "searchBar": {

@@ -403,20 +403,7 @@
           "typ": "WMS",
            "visibility": false,
           "showInLayerTree": true
-        },
-        {
-          "id": [
-            "717",
-            "718",
-            "719",
-            "720",
-            "13712",
-            "13709",
-            "13714",
-            "13716"
-          ],
-          "name": "Geobasiskarten (farbig)"
-        },
+        },       
         {
           "id": "topplus_wmts",
           "name": "TopPlusOpen (WMTS)",

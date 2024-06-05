@@ -383,6 +383,7 @@
       "elements": [
             {                
                 "titel": "Luftbilder",
+		"isFolderSelectable": true,
                 "visibility": true,
                 "type": "folder",
                 "elements": [

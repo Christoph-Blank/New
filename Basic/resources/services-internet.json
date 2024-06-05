@@ -1190,6 +1190,9 @@
         "url": "https://gdi.berlin.de/services/wmts/k5_farbe",
         "capabilitiesUrl": "https://gdi.berlin.de/services/wmts/k5_farbe?request=getcapabilities&service=WMTS&version=1.0.0",
         "typ": "WMTS",
+	"preview": {     		
+    		"src": "./resources/img/K5_Farbe.png"
+    		},
 	"format" : "image/png",
         "layers": "k5_farbe",
         "tileMatrixSet": "GDIBE:25833",
@@ -1210,6 +1213,9 @@
         "url": "https://gdi.berlin.de/services/wmts/k5_sw",
         "capabilitiesUrl": "https://gdi.berlin.de/services/wmts/k5_sw?request=getcapabilities&service=WMTS&version=1.0.0",
         "typ": "WMTS",
+	"preview": {     		
+    		"src": "./resources/img/K5_SW.png"
+    		},
 	"format" : "image/png",
         "layers": "k5_sw",
         "tileMatrixSet": "GDIBE:25833",

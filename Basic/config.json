@@ -403,11 +403,23 @@
           "typ": "WMS",
            "visibility": false,
           "showInLayerTree": true
-        },       
-        {
-          "id": "topplus_wmts",
-          "name": "TopPlusOpen (WMTS)",
+        },
+	{
+          "id": "hintergrund_k5_grau",
           "typ": "WMTS",
+           "visibility": false,
+          "showInLayerTree": true
+        },
+	{
+          "id": "hintergrund_k5_farbe",
+          "typ": "WMTS",
+           "visibility": false,
+          "showInLayerTree": true
+        },
+        {
+          "id": "luftbild2023:0",
+          "name": "Digitale farbige Orthophotos 2023 (DOP25RGB)",
+          "typ": "WMS",
           "visibility": false,
           "showInLayerTree": true
         }

@@ -407,6 +407,11 @@
 	{
           "id": "hintergrund_k5_grau",
           "typ": "WMTS",
+	  "preview": {
+    		"zoomLevel": 6,
+        	"center": "394914,5821900",
+    		"radius": 500
+    	},
            "visibility": false,
           "showInLayerTree": true
         },

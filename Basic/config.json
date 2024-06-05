@@ -416,8 +416,7 @@
                 ]
             },
 	    {
-                "id": "test01",
-                "name": "Test",
+                "id": "360fotos",                
 		"styleId": "1711",
                 "visibility": false,               
                 "type": "layer",

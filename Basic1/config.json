@@ -1,6 +1,9 @@
 {
   "portalConfig": {
     "map": {
+      "baselayerSwitcher": {
+      "active": true
+      },
       "controls": {
         "zoom": true,
         "orientation": {

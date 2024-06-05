@@ -418,6 +418,9 @@
 	{
           "id": "hintergrund_k5_farbe",
           "typ": "WMTS",
+	  "preview": {     		
+    		"src": "https://gdi.berlin.de/services/wmts/k5_sw?layer=k5_sw&style=&tilematrixset=GDIBE%3A25833&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix=GDIBE%3A25833%3A6&TileCol=73&TileRow=42"
+    		},
            "visibility": false,
           "showInLayerTree": true
         },

@@ -6,7 +6,26 @@
         "zoom": true,
         "orientation": {
           "zoomMode": "once"
-        }
+        },
+	"expandable": {
+        	"button3d": true,
+		"freeze": true,
+		"fullScreen": true,
+		"rotation": true,
+		"tiltView": true,
+		"totalView": true,
+		"startModule": 
+		"mainMenu": [
+        		{
+            		"type": "scaleSwitcher"
+        		}
+    			],
+    		"secondaryMenu": [
+        		{
+            		"type": "myModule"
+        		}
+    			]		
+      }
       },
       "layerPills": {
         "active": true,
@@ -365,15 +384,13 @@
           "id": "Basemap-farbe",
           "name": "Basemap (Farbausgabe)",
           "typ": "WMS",
-          "visibility": true,
-          "showInLayerTree": true
+          "visibility": true
         },
         {
           "id": "Basemap-sw",
           "name": "Basemap (SW-Ausgabe)",
           "typ": "WMS",
-          "visibility": false,
-          "showInLayerTree": true
+          "visibility": false
         }
       ]
     },

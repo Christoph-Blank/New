@@ -407,11 +407,9 @@
 	{
           "id": "hintergrund_k5_grau",
           "typ": "WMTS",
-	  "preview": {
-    		"zoomLevel": 6,
-        	"center": "394914,5821900",
-    		"radius": 500
-    	},
+	  "preview": {     		
+    		"src": "./resources/img/K5_SW.png"
+    		},
            "visibility": false,
           "showInLayerTree": true
         },
@@ -419,7 +417,7 @@
           "id": "hintergrund_k5_farbe",
           "typ": "WMTS",
 	  "preview": {     		
-    		"src": "https://gdi.berlin.de/services/wmts/k5_farbe?layer=k5_farbe&style=&tilematrixset=GDIBE%3A25833&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix=GDIBE%3A25833%3A6&TileCol=73&TileRow=42"
+    		"src": "./resources/img/K5_Farbe.png"
     		},
            "visibility": false,
           "showInLayerTree": true

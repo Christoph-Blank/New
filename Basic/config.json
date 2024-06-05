@@ -22,7 +22,7 @@
     				],
     			"secondaryMenu": [
         			{
-            			"type": "scaleSwitcher"
+            			"type": "baselayerSwitcher"
         			}
     				]
 			}

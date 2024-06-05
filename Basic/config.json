@@ -391,11 +391,18 @@
     "baselayer": {
       "elements": [
         {
-          "id": "453",
-          "visibility": true
+          "id": "Basemap-farbe",
+          "name": "Basemap (Farb-Ausgabe)",
+          "typ": "WMS",
+           "visibility": false,
+          "showInLayerTree": true
         },
         {
-          "id": "452"
+          "id": "Basemap-sw",
+          "name": "Basemap (SW-Ausgabe)",
+          "typ": "WMS",
+           "visibility": false,
+          "showInLayerTree": true
         },
         {
           "id": [

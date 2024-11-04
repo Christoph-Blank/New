@@ -129,7 +129,46 @@
           {
             "type": "topicTree",
             "hitTemplate": "layer"
-          }
+          },
+	  {
+                        "type": "elasticSearch",
+                        "serviceId": "elastic_prod",
+                        "requestType": "GET",
+                        "hitTemplate": "layer",
+                        "hitIcon": "none",
+                        "payload": {
+                            "id": "query",
+                            "params": {
+                                "query_string": "",
+                                "typ": [
+                                    "sensorthings",
+                                    "wms"
+                                ],
+                                "size": 30
+                            }
+                        },
+                        "searchStringAttribute": "query_string",
+                        "responseEntryPath": "hits.hits",
+                        "hitMap": {
+                            "name": "_source.name",
+                            "id": "_source.id",
+                            "source": "_source",
+                            "layerId": "_source.id",
+                            "toolTip": [
+                                "_source.name",
+                                "_source.datasets.md_name"
+                            ]
+                        },
+                        "resultEvents": {
+                            "onClick": [
+                                "addLayerToTopicTree"
+                            ],
+                            "buttons": [
+                                "showInTree",
+                                "showLayerInfo"
+                            ]
+                        }
+                    }
         ]
       },
       "sections": [

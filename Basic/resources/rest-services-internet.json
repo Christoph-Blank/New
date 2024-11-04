@@ -28,5 +28,17 @@
 	"name": "BKG Routing Service",
 	"url" : "https://sg.geodatenzentrum.de/web_ors",
 	"typ" : "RoutingService"
-	 }
+	 },
+	{
+    "id": "elastic",
+    "name": "Elastic Prod",
+    "url": "https://geodienste.hamburg.de/layers/_search/template?source_content_type=application/json&source=",
+    "typ": "Search"
+  },
+{
+    "id": "elastic_prod",
+    "name": "Elastic Prod",
+    "url": "https://geodienste.hamburg.de/layers/_search/template",
+    "typ": "Search"
+  }
 ]

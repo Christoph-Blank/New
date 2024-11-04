@@ -91,8 +91,8 @@
         "searchInterfaces": [
 	  
           
-          {
-            "type": "bkg",
+          { 
+	    "type": "bkg",
             "suggestServiceId": "BKG_SUG",
             "geosearchServiceId": "BKG_GEO",
             "extent": [
@@ -103,9 +103,8 @@
                       ],
             "resultCount": 10,
             "epsg": "EPSG:25833",
-            "filter": "filter=bundesland:Berlin",
-            "minScore": 0.6
-            
+            "filter": "filter=(ort:Pankow, Prenzlauer Berg, Weißensee)",
+            "minScore": 0.6           
           },
           {
             "type": "visibleVector",

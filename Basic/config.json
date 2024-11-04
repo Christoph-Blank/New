@@ -87,16 +87,7 @@
         "toolTip": "Masterportal"
       },
       "searchBar": {
-	"searchResultOrder": [
-                "common:modules.searchbar.type.folder",
-                "common:modules.searchbar.type.subject",
-                "common:modules.searchbar.type.topic",
-                "common:modules.searchbar.type.address",
-                "common:modules.searchbar.type.street",
-                "common:modules.searchbar.type.parcel",
-                "common:modules.searchbar.type.location",
-                "common:modules.searchbar.type.district"
-            ],
+	
         "searchInterfaces": [
           {
             "type": "komootPhoton",
@@ -486,13 +477,6 @@
                 "visibility": false,               
                 "type": "layer",
                 "typ": "GeoJson"
-           },
-	   {
-                "id": "s_apotheken",
-		"styleId": "1711",
-                "visibility": false,               
-                "type": "layer",
-                "typ": "WFS"
            }
 	      
         ]

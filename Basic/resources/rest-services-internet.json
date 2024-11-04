@@ -8,13 +8,13 @@
   {
     "id": "BKG_SUG",
     "name": "BKG Geokodierungsdienst Suggest",
-    "url": "https://gdi.berlin.de/searches/bkg/suggest",
+    "url" : "https://sg.geodatenzentrum.de/gdz_geokodierung__d202fbd0-f77b-c8b1-0ce0-5a5c2cfa13d6/suggest",
     "typ": "GDZ"
   },
   {
     "id": "BKG_GEO",
     "name": "BKG Geokodierungsdienst Geosearch",
-    "url": "https://gdi.berlin.de/searches/bkg/geosearch",
+    "url" : "https://sg.geodatenzentrum.de/gdz_geokodierung__d202fbd0-f77b-c8b1-0ce0-5a5c2cfa13d6/geosearch",
     "typ": "GDZ"
   },
   {

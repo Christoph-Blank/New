@@ -89,6 +89,26 @@
       "searchBar": {
 	
         "searchInterfaces": [
+	  {
+    "type": "elasticSearch",
+    "serviceId":"elastic",
+    "requestType": "GET",
+    "payload": {
+        "id":"query",
+        "params":{
+            "query_string":""
+        }
+    },
+    "searchStringAttribute": "query_string",
+    "responseEntryPath": "hits.hits",
+    "hitMap": {
+        "name": "_source.name",
+        "id": "_source.id",
+        "source": "_source"
+    },
+    "hitType": "common:modules.searchbar.type.subject",
+    "hitIcon": "bi-list-ul"
+},
           {
             "type": "komootPhoton",
             "minChars": 3,

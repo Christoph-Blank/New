@@ -90,16 +90,7 @@
 	
         "searchInterfaces": [
 	  
-          {
-            "type": "komootPhoton",
-            "minChars": 3,
-            "serviceId": "11",
-            "limit": 10,
-            "lang": "de",
-            "lat": 52.6,
-            "lon": 13.5,
-            "bbox": "13.6,52.5,13.3,52.7"
-          },
+          
           {
             "type": "bkg",
             "suggestServiceId": "BKG_SUG",

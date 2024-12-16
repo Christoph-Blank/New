@@ -103,7 +103,7 @@
                       ],
             "resultCount": 10,
             "epsg": "EPSG:25833",
-            "filter": "filter=(ort:Pankow, Prenzlauer Berg, Weißensee)",
+            "filter": "filter=(Bundesland:Berlin)",
             "minScore": 0.6           
           },
           {

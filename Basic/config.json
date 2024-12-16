@@ -402,7 +402,7 @@
     		"src": "./resources/img/Basemap_SW.PNG"
     		},
            "visibility": false,
-          "showInLayerTree": true
+          "showInLayerTree": false
         },
 	{
           "id": "hintergrund_k5_grau",
@@ -411,7 +411,7 @@
     		"src": "./resources/img/K5_SW.PNG"
     		},
            "visibility": false,
-          "showInLayerTree": true
+          "showInLayerTree": false
         },
 	{
           "id": "hintergrund_k5_farbe",
@@ -420,14 +420,14 @@
     		"src": "./resources/img/K5_Farbe.PNG"
     		},
            "visibility": false,
-          "showInLayerTree": true
+          "showInLayerTree": false
         },
         {
           "id": "truedop_2023:truedop_2023",
           "name": "Digitale farbige TrueOrthophotos 2023 (DOP20RGBI)",
           "typ": "WMS",
           "visibility": false,
-          "showInLayerTree": true
+          "showInLayerTree": false
         }
       ]
     },

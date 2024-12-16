@@ -429,8 +429,7 @@
       "elements": [
             {                
                 "name": "Luftbilder",
-		"showInLayerTree": true,
-		"isFolderSelectable": true,
+		"showInLayerTree": true,		
                 "visibility": true,
                 "type": "folder",
                 "elements": [

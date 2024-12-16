@@ -67,7 +67,7 @@
     },
     "tree": {            
       "addLayerButton": {
-        "active": false,
+        "active": true,
         "searchBar": {
           "active": true,
           "searchInterfaceInstanceId": "elasticSearch_0",
@@ -429,7 +429,7 @@
       "elements": [
             {                
                 "name": "Luftbilder",
-		"titel": "Luftbilder",
+		"showInLayerTree": true,
 		"isFolderSelectable": true,
                 "visibility": true,
                 "type": "folder",

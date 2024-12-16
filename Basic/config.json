@@ -389,7 +389,7 @@
           "name": "Basemap (Farb-Ausgabe)",
           "typ": "WMS",
 	  "preview": {     		
-    		"src": "./resources/img/Basemap_Farbe.png"
+    		"src": "./resources/img/Basemap_Farbe.PNG"
     		},
            "visibility": true,
           "showInLayerTree": true
@@ -399,7 +399,7 @@
           "name": "Basemap (SW-Ausgabe)",
           "typ": "WMS",
 	  "preview": {     		
-    		"src": "./resources/img/Basemap_SW.png"
+    		"src": "./resources/img/Basemap_SW.PNG"
     		},
            "visibility": false,
           "showInLayerTree": true
@@ -408,7 +408,7 @@
           "id": "hintergrund_k5_grau",
           "typ": "WMTS",
 	  "preview": {     		
-    		"src": "./resources/img/K5_SW.png"
+    		"src": "./resources/img/K5_SW.PNG"
     		},
            "visibility": false,
           "showInLayerTree": true
@@ -417,7 +417,7 @@
           "id": "hintergrund_k5_farbe",
           "typ": "WMTS",
 	  "preview": {     		
-    		"src": "./resources/img/K5_Farbe.png"
+    		"src": "./resources/img/K5_Farbe.PNG"
     		},
            "visibility": false,
           "showInLayerTree": true

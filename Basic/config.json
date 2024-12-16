@@ -428,7 +428,8 @@
     "subjectlayer": {
       "elements": [
             {                
-                "titel": "Luftbilder",
+                "name": "Luftbilder",
+		"titel": "Luftbilder",
 		"isFolderSelectable": true,
                 "visibility": true,
                 "type": "folder",

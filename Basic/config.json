@@ -464,8 +464,9 @@
                 ]
             },
 	    {
-                "id": "360fotos",                
-		"styleId": "1711",
+                "id": "360fotos", 
+		"name": "Panorama Fotos",
+		"styleId": "360fotos",
                 "visibility": false,               
                 "type": "layer",
                 "typ": "GeoJson"

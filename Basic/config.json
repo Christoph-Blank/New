@@ -387,14 +387,20 @@
         {
           "id": "Basemap-farbe",
           "name": "Basemap (Farb-Ausgabe)",
-          "typ": "WMS",	  
+          "typ": "WMS",
+	  "preview": {     		
+    		"src": "./resources/img/Basemap_Farbe.png"
+    		},
            "visibility": true,
           "showInLayerTree": true
         },
         {
           "id": "Basemap-sw",
           "name": "Basemap (SW-Ausgabe)",
-          "typ": "WMS",	  
+          "typ": "WMS",
+	  "preview": {     		
+    		"src": "./resources/img/Basemap_SW.png"
+    		},
            "visibility": false,
           "showInLayerTree": true
         },

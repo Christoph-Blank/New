@@ -10,13 +10,7 @@
           "imageScale": 0.7,
           "clusterImageName": "krankenhaus.png",
           "clusterTextOffsetX": 30,
-          "clusterTextOffsetY": 0,
-          "clusterTextFillColor": [
-            0,
-            0,
-            255,
-            1
-          ]
+          "clusterTextOffsetY": 0
         }
       }
     ]

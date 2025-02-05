@@ -155,11 +155,6 @@
             "name": "common:modules.news.name",
             "type": "news"
           },
-	  {
-                        "type": "contact",
-                        "contactInfo": "Sie haben Hinweise, Fragen oder Probleme? Schreiben Sie uns!",
-                        "mail": "christoph.blank@ba-pankow.berlin.de"
-          },
           {
             "type": "language"
           },
@@ -175,9 +170,7 @@
         ],
 	[
          {
-                        "type": "contact",
-                        "contactInfo": "Sie haben Hinweise, Fragen oder Probleme? Schreiben Sie uns!",
-                        "mail": "christoph.blank@ba-pankow.berlin.de"
+                        "type": "contact"
                     }
           
         ]

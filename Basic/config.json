@@ -173,7 +173,7 @@
     	"type": "customMenuElement",
 	"icon": "bi-contact",
     	"name": "Kontakt aufnehmen",
-    	"htmlContent": "<div><p>Sie haben Hinweise, Fragen oder Probleme? Schreiben Sie uns!</p></br><a href=\"mailto:christoph.blanke@ba-pankow.berlin.de">E-Mail Senden, christoph.blanke@ba-pankow.berlin.de</a><div>"
+    	"htmlContent": "<div><p>Sie haben Hinweise, Fragen oder Probleme? Schreiben Sie uns!</p></br><a href=\"mailto:christoph.blanke@ba-pankow.berlin.de\">E-Mail Senden, christoph.blanke@ba-pankow.berlin.de</a><div>"
 	}
           
         ]

@@ -1,10 +1,16 @@
 [
   {
-    "id": "11",
-    "name": "Komoot Photon Suche",
-    "url": "https://photon.komoot.io/api/?",
-    "typ": "WFS"
-  },
+        "id": "10",
+        "name": "OSM Suche",
+        "url": "https://nominatim.openstreetmap.org/search?",
+        "typ": "WFS"
+    },
+    {
+        "id": "11",
+        "name": "Komoot Photon Suche",
+        "url": "https://photon.komoot.io/api/?",
+        "typ": "WFS"
+    },
   {
     "id": "BKG_SUG",
     "name": "BKG Geokodierungsdienst Suggest",

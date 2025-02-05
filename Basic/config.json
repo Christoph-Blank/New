@@ -90,7 +90,23 @@
 	
         "searchInterfaces": [
 	  
-          
+          {
+                "type": "komootPhoton",
+                "minChars": 3,
+                "serviceId": "11",
+                "limit": 10,
+                "lang": "de",
+                "lat": 52.53704,
+                "lon":13.450604,
+                "bbox": "13.363,52.527,13.558,52.656"
+          },
+          {
+                "type": "osmNominatim",
+                "serviceId": "10",
+                "limit": 60,
+                "states": "Berlin",
+                "classes": "place,highway,building,shop,historic,leisure,city,county"
+          },
           { 
 	    "type": "bkg",
             "suggestServiceId": "BKG_SUG",

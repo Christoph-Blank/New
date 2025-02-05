@@ -169,9 +169,12 @@
 	}
         ],
 	[
-         {
-                        "type": "contact"
-                    }
+        {
+    	"type": "customMenuElement",
+    	"name": "Kontakt",
+    	"htmlContent": "Sie haben Hinweise, Fragen oder Probleme? Schreiben Sie uns!",
+	"htmlContent": "test"
+	}
           
         ]
       ]
